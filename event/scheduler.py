@@ -1101,6 +1101,19 @@ if __name__ == "__main__":
         with open("../data_event/event_final_all.json", "w", encoding="utf-8") as json_f:
             json.dump(scheduler.final_schedule, json_f, ensure_ascii=False, indent=4)
         print("所有数据处理完成，JSON文件已生成")
+
+
+
+
+
+
+
+
+
+
+
+
+
     # for i in range(1, 13):
     #     scheduler.events_refine(i)
     #     print(scheduler.refine_schedule)

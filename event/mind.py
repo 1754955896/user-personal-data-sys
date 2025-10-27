@@ -523,6 +523,28 @@ if __name__ == "__main__":
     #mind.calendar_atomic = read_json_file("../data_atomic/atomic_7.json")
     mind.main("2025-10-01","2025-10-31")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # start_date = datetime.strptime("2025-01-01", "%Y-%m-%d")
     # end_date = datetime.strptime("2025-01-07", "%Y-%m-%d")
     # current_date = start_date
