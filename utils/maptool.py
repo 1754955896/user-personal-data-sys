@@ -119,6 +119,7 @@ class MapMaintenanceTool:
 
     def process_route(self, keywords: List[str], cities: List[Optional[str]], transports: List[str]) -> Tuple[List[Dict], List[Optional[int]]]:
         """主函数：确保任何错误都返回([], [])，且所有子函数出错时有输出"""
+        transports = transports[0:len(keywords)-1]
         # 确保输入参数可迭代（避免类型错误）
         try:
             keywords = list(keywords) if keywords else []

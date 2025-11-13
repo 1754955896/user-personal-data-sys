@@ -2965,4 +2965,6 @@ def standard_data(data,type):
 #         file.write(s + "\n")  # 每个字符串后加换行符，实现分行存储
 #
 # print("字符串数组已保存到 output.txt")
-handle_profie(persona)
+
+
+handle_profie(persona2)

@@ -2,10 +2,8 @@
 import ast
 import json
 import re
-
 import holidays
 from pyarrow import string
-
 from utils.IO import *
 from datetime import datetime, timedelta
 from utils.llm_call import *
@@ -26,7 +24,7 @@ class Mind:
         self.short_memory = ""#主要存储近期所有详细事件和相关检索事件。
         self.reflection = ""#主要存储对现在和未来的思考
         self.thought = ""#记录个人的感受，想法。包括情绪，想法，需求。以及思考过程中的打算。
-        self.atomic_events : Optional[List[Dict]] = None
+        self.bottom_events : Optional[List[Dict]] = None
         self.maptools = MapMaintenanceTool("e8f87eef67cfe6f83e68e7a65b9b848b")
         self.env = ""
 
@@ -43,14 +41,14 @@ class Mind:
         with open("record.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
-
     def _get_bottom_level_events(self) -> List[Dict]:
         """
         【内部辅助方法】递归提取所有最底层事件（subevent为空），结果缓存到self.bottom_events
         :return: 最底层事件列表
         """
-        if self.atomic_events is not None:
-            return self.atomic_events  # 已计算过，直接返回缓存
+        if self.bottom_events is not None:
+            print("已计算过，直接返回缓存")
+            return self.bottom_events  # 已计算过，直接返回缓存
 
         def recursive_extract(events: List[Dict]) -> List[Dict]:
             result = []
@@ -65,6 +63,10 @@ class Mind:
         self.bottom_events = recursive_extract(self.events)
         return self.bottom_events
     def update_bottom_level_events(self):
+        """
+                重新从event抽取底层事件
+                :return: 最底层事件列表
+        """
         def recursive_extract(events: List[Dict]) -> List[Dict]:
             result = []
             for event in events:
@@ -407,8 +409,41 @@ class Mind:
         res["未来一周背景"] = r
 
         # 生成事件副本，避免修改原始数据
-        print(res)
+        #print(res)
         return res
+
+    def get_plan2(self, date):  # 今日行动的详细信息+未来行动的粗略信息
+            res = {"今日事件": "", "未来一周背景": ""}
+            id_set = set()
+
+            def getdata(date):
+                data1 = {"事件序列": [], "事件背景": []}
+                arr = self.filter_by_date(date)
+                arr1 = []
+                for item in arr:
+                    id = item['event_id']
+                    if id in id_set:
+                        continue
+                    else:
+                        id_set.add(id)
+                        parts = id.rsplit('-', 1)[0]
+                        e = self.get_event_by_id(parts)
+                        arr1.append(e)
+                data1["事件序列"] = arr
+                data1["事件背景"] = arr1
+                return data1
+
+            res["今日事件"] = getdata(date)
+            r = {}
+            for d in iterate_dates(date,self.get_next_n_day(date,5)):
+                e = self.filter_by_date(d)
+                r[d] = e
+            # 3. 赋值给 res，完全不关联原始数据
+            res["未来一周背景"] = r
+            res["前一天事件"] = {self.get_next_n_day(date,-1):self.filter_by_date(self.get_next_n_day(date,-1))}
+            # 生成事件副本，避免修改原始数据
+            # print(res)
+            return res
 
     def delete_top_event(self,events, target_id):
         """
@@ -456,6 +491,12 @@ class Mind:
         return events + [event_to_add]
 
     def event_schedule(self,event,date):
+        """
+                    根据操作序列修改原始事件数据，删除操作仅删除目标ID事件本身，保留上层结构
+                    :param original_data: 原始事件数据列表
+                    :param operations: 操作序列列表
+                    :return: 改动后的事件数据列表
+        """
         def modify_event_data(original_data, operations):
             """
             根据操作序列修改原始事件数据，删除操作仅删除目标ID事件本身，保留上层结构
@@ -528,14 +569,18 @@ class Mind:
         return
 
     def event_add(self,data):
+        """
+            新增上层事件，并更新底层事件
+
+        """
         for i in data:
             self.events = self.add_top_event(self.events,i)
         self.update_bottom_level_events()
         return
     def update_short_memory(self,dailyevent,date):
-        #插入今天事件
+        #记忆库插入今天事件
         self.mem_moudle.add_memory(dailyevent)
-        #检索明天事件
+        #检索明天相关事件
         def get_target_dates(date_str: str, date_format: str = "%Y-%m-%d") -> List[str]:
             """
             根据输入的字符串日期，获取「前两天日期」和「本日日期」的字符串数组（按时间升序排列）
@@ -556,7 +601,7 @@ class Mind:
             except ValueError as e:
                 raise ValueError(f"日期格式错误！请确保输入符合'{date_format}'格式（如'2025-01-01'），错误信息：{str(e)}")
 
-            # 2. 计算前两天的日期（本日日期 - 2天）
+            # 2. 计算前四天的日期（本日日期 - 4天）
             two_days_ago = target_date - timedelta(days=2)
             one_days_ago = target_date - timedelta(days=1)
             three_days_ago = target_date - timedelta(days=3)
@@ -631,6 +676,8 @@ class Mind:
 
             # 4. 直接返回数组（顺序：上个月同日 → 上周同星期）
             return [last_month_day, last_week_weekday]
+
+        #最终增加前五天事件、上周同日事件、上月同日事件、检索最相似3日事件
         date_set = set()
         mem = ""
         for i in get_target_dates(date):
@@ -648,7 +695,7 @@ class Mind:
         for item in arr:
             name = item['name']
             res += name
-        res = self.mem_moudle.search_by_topic_embedding(res,2)
+        res = self.mem_moudle.search_by_topic_embedding(res,3)
         for i in res:
             if i['date'] in date_set:
                 continue
@@ -657,6 +704,7 @@ class Mind:
         return
 
     def map(self,pt):
+        #获取真实poi数据和通行信息
         prompt = template_get_poi.format(persona = self.persona)
         res = llm_call_skip(prompt,self.context)
         print("poi分析-----------------------------------------------------------------------")
@@ -678,7 +726,6 @@ class Mind:
             res+=f"路段 {i + 1} {data['poi'][i]}至{data['poi'][i+1]}（{transport}）：{dur // 60 if dur else '未知'}"
         print(res)
         return res
-
 
     def remove_json_wrapper(self,s: str) -> str:
         """
@@ -762,9 +809,110 @@ class Mind:
         print(res)
         self.update_short_memory(m,date)
         self.save_to_json()
-        with open("event_update.json", "w", encoding="utf-8") as f:
+        with open("event_data/life_event/event_update.json", "w", encoding="utf-8") as f:
             json.dump(self.events, f, ensure_ascii=False, indent=2)
         return
+    def event_refine(self,date):
+        #调整上层事件
+        plan = self.get_plan2(date)
+        #思考推迟/提前什么事件
+        prompt = template_plan_4.format(plan0 = plan['今日事件']["事件序列"],plan1=plan['今日事件'],plan2=plan['未来一周背景'],plan3 = plan['前一天事件'],date = self.get_date_string(date))
+        res = self.llm_call_s(prompt, 0)
+        print("思考-----------------------------------------------------------------------")
+        print(res)
+        data = json.loads(res)
+        def update_subevent(event_list, target_id, new_event):
+            updated = False
+            for i in range(len(event_list)):
+                current_event = event_list[i]
+                # 匹配当前事件ID
+                if current_event["event_id"] == target_id:
+                    for j in range(len(event_list[i]['date'])):
+                        if self.is_date_match(event_list[i]['date'][j],date):
+                            event_list[i]['date'][j]=new_event
+                    updated = True
+                    break
+                # 递归检查子事件
+                if current_event.get("subevent") and len(current_event["subevent"]) > 0:
+                    updated = update_subevent(current_event["subevent"], target_id, new_event)
+                    if updated:
+                        break
+            return updated
+        data = data['event_update']
+        #更新
+        for i in data:
+            update_subevent(self.events,i['event_id'],i['new_date'])
+            self.update_bottom_level_events()
+        return True
+
+    def daily_event_gen1(self,date):
+        # 基于认知、检索更新后的短期记忆、长期记忆，昨日想法，推理规划反思+信息明确+需求情感推理
+        #获取今日规划
+        plan = self.get_plan(date)
+        prompt = template_plan_21.format(cognition=self.cognition, memory=self.long_memory + self.short_memory,
+                                        thought=self.thought, plan=plan['今日事件'], date=self.get_date_string(date),
+                                        persona=self.persona_withoutrl)
+        res = self.llm_call_s(prompt, 1)
+        print("主观思考（计划如何执行、想安排什么活动）-----------------------------------------------------------------------")
+        print(res)
+        #获取未来规划
+        plan = self.get_plan2(date)
+        prompt = template_plan_11.format(plan=plan)
+        res1 = self.llm_call_s(prompt, 1)
+        print("客观生成-----------------------------------------------------------------------")
+        print(res1)
+        tt = res1
+        #获取poi数据
+        poidata = self.map(tt)
+        prompt = template_plan_5.format(poi=poidata)
+        res1 = self.llm_call_s(prompt, 1)
+        print("轨迹调整-----------------------------------------------------------------------")
+        print(res1)
+        # 随机细节事件引入+反应
+        prompt = template_plan_31.format(memory=self.short_memory,life=res1)
+        res2 = self.llm_call_s(prompt, 0)
+        print("丰富（细节事件+多场景+描述润色）-----------------------------------------------------------------------")
+        print(res2)
+        prompt = template_get_event_31.format(content=res2,
+                                             poi=poidata + "家庭住址：上海市浦东新区张杨路123号，工作地点：上海市浦东新区世纪大道88号",
+                                             date=self.get_date_string(date))
+        res = self.llm_call_s(prompt, 0)
+        print("提取-----------------------------------------------------------------------")
+        print(res)
+        res = self.remove_json_wrapper(res)
+        data = json.loads(res)
+        # 事件更新
+        self.event_add(data)
+        # 记忆更新(检索系统)+想法生成
+        prompt = template_reflection.format(cognition=self.cognition, memory=self.long_memory + self.short_memory,
+                                            content=res2, plan=plan, date=self.get_date_string(date))
+        res = self.llm_call_s(prompt, 1)
+        print("反思（真实情绪，自我洞察，事件记忆，总结反思，未来期望）-----------------------------------------------------------------------")
+        print(res)
+        res = self.remove_json_wrapper(res)
+        data = json.loads(res)
+        #想法更新
+        self.thought = data["thought"]
+        m = json.loads(res)
+        mm = [m]
+        for i in range(1, 8):
+            mm += self.mem_moudle.search_by_date(self.get_next_n_day(date, -i))
+        # 总结：基于最新一天的记忆和思考想法，更新认知，长期记忆
+        prompt = template_update_cog.format(cognition=self.cognition, memory=self.long_memory, plan=plan, history=mm)
+        res = self.llm_call_s(prompt)
+        res = self.remove_json_wrapper(res)
+        data = json.loads(res)
+        #长期记忆更新
+        self.long_memory = data['long_term_memory']
+        print("更新（客观事实与固定偏好，印象深刻的关键事件，重复多次进行的事件，对过去总结）-----------------------------------------------------------------------")
+        print(res)
+        #短期记忆更新
+        self.update_short_memory(m, date)
+        self.save_to_json()
+        with open("event_data/life_event/event_update2.json", "w", encoding="utf-8") as f:
+            json.dump(self.events, f, ensure_ascii=False, indent=2)
+
+        return True
 
 
 def iterate_dates(start_date: str, end_date: str) -> List[str]:
@@ -1505,47 +1653,12 @@ if __name__ == "__main__":
         }
     '''
     json_data_p = json.loads(persona)
-    json_data_e = read_json_file("event_update.json")
+    json_data_e = read_json_file("event_data/life_event/event_update2.json")
     mind.load_from_json(json_data_e,json_data_p,1)
-    #print(mind.get_plan('2025-01-02'))
-    #mind.save_to_json()
-    for date in iterate_dates('2025-02-25','2025-07-30'):
-        mind.daily_event_gen(date)
+
+    print('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+    for date in iterate_dates('2025-01-01','2025-03-30'):
+        mind.daily_event_gen1(date)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # start_date = datetime.strptime("2025-01-01", "%Y-%m-%d")
-    # end_date = datetime.strptime("2025-01-07", "%Y-%m-%d")
-    # current_date = start_date
-    # while current_date <= end_date:
-    #     print(current_date)
-    #     mind.AtomicEventGen(mind.get_atomiccal_in_range(current_date.strftime("%Y-%m-%d"),current_date.strftime("%Y-%m-%d")),current_date.strftime("%Y-%m-%d"))
-    #     #mind.save_json()
-    #     current_date += timedelta(days=1)
-    #     break
-    # print(mind.get_events_in_range("2025-01-13","2025-01-13"))
-    # print(mind.EventDecomposer(mind.get_events_in_range("2025-01-13","2025-01-13")))
-    #print(mind.AtomicEventGen(mind.get_calendar_in_range("2025-01-13", "2025-01-13")))
 
