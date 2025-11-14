@@ -1,5 +1,25 @@
-The data dic restore the output file and test file.
-the event dic has the code for event generation,including timeline,atomic data.
-the memory dic has the database for memory.
-the persona dic has the code for persona generation.
-the utils dic has the code for tools.
+使用之前，现根据utils/llm_call文件修改openai api
+
+event_gen.py 负责调用scheduler的功能，将生成的事件存到event.json，将调整后的事件存到event_s.json,将分解后的事件存到event_decompose.json
+event_gen的输入为persona，可进行调整，格式为json字符串。
+
+
+
+simulator.py 负责调用mind的功能，将分解事件进一步调整并存到event_decompose1.json。然后模拟并生成每天事件，存到event_update.json
+simulator的输入为persona和由event_gen生成的event_decompose.json文件以及起始时间和结束时间
+
+
+phone_gen.py 负责生成手机数据，将存到phone_data文件夹。
+phone_gen的输入为persona，由simulator生成的event_update.json以及起始时间和结束时间。
+
+所有数据的输入输出存储在data文件夹
+
+data_XX文件夹存储历史版本的数据
+
+event文件夹存储事件生成相关代码
+
+log文件夹存储日志
+
+persona文件夹存储画像构建代码
+
+utils文件夹存储工具

@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer
 class PersonalMemoryManager:
     def __init__(self,
                  memory_file: str = "personal_memories.json",
-                 model_path: str = "./local_models/all-MiniLM-L6-v2"):
+                 model_path: str = "event/local_models/all-MiniLM-L6-v2"):
         os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 
         self.memory_file = memory_file
