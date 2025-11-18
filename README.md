@@ -1,5 +1,22 @@
 使用之前，现根据utils/llm_call文件修改openai api
 
+使用流程：
+
+请先在event_gen.py、simulator.py 、phone_gen.py指定存储目录。
+
+然后把persona.json文件存在指定目录。
+
+之后依次运行event_gen.py、simulator.py 、phone_gen.py。
+
+event_gen.py输出event_decompose.json代表事件树（主题事件-原子事件）
+
+simulator.py输出event_update.json代表每日事件（前面为事件树，后面为按时间顺序整理的每日事件）
+
+phone_gen.py输出手机数据
+
+中间数据存储在process文件夹
+
+
 event_gen.py 负责调用scheduler的功能，将生成的事件存到event.json，将调整后的事件存到event_s.json,将分解后的事件存到event_decompose.json
 event_gen的输入为persona，可进行调整，格式为json字符串。
 
