@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 #1）调整日程使其合理  2）消解冲突  3）事件插入+后续调整  4）事件插入  5）事件粒度对齐
 import json
+import os
+
 from utils.IO import *
 from datetime import datetime, timedelta
 from utils.llm_call import *
@@ -10,7 +12,7 @@ from datetime import datetime, timedelta
 import holidays  # 需安装：pip install holidays
 
 class Scheduler:
-    def __init__(self,persona):
+    def __init__(self,persona,file_path):
         """初始化日程调度器，创建空的日程存储结构"""
         self.schedule = {}  # 存储日程数据，格式如{"2025-01-01":["event1","event2"],...}
         # 保存原始事件信息，包括所有可能的时间范围
@@ -19,10 +21,13 @@ class Scheduler:
         self.relation = ""
         self.final_schedule = {}
         self.decompose_schedule = {}
-        self.name = "xujing"
-        d = json.loads(persona)
+        d = persona
+        if type(persona)==str:
+            d = json.loads(persona)
         self.relation = d['relation']
+        self.name = d['name']
         self.summary=""
+        self.file_path = file_path
     def load_from_json(self, json_data,persona):
         """
         从JSON数据加载日程，支持起止时间为数组的格式
@@ -33,7 +38,6 @@ class Scheduler:
         """
         self.raw_events = json_data
         self.persona = persona
-        d = json.loads(persona)
         self.relation = persona['relation']
 
     def load_finalevent(self,json):
@@ -61,7 +65,7 @@ class Scheduler:
 
     def handle_profie(self,persona):
         prompt = template_analyse.format(persona=persona)
-        res = llm_call(prompt, context)
+        res = llm_call(prompt, context,1)
         print(res)
         persona_summary = res
         self.summary = persona_summary
@@ -89,7 +93,6 @@ class Scheduler:
         return [res1, res2, res3, res4]
 
     def extract_events_by_categories(self,file_path):
-        # 定义目标类别列表
         CATEGORIES = [
             "Career & Education",
             "Relationships",
@@ -123,23 +126,42 @@ class Scheduler:
             if not line:
                 continue
 
-            # 检查是否为类别标题行
-            if line.startswith('**') and line.endswith('**'):
-                # 提取类别名称
-                category = line.strip('*').split('（')[0].strip()
-                # 检查是否为目标类别
-                if category in event_data:
-                    current_category = category
+            # 检查是否为类别标题行（宽松匹配）
+            # 处理可能包含的特殊字符（*等）并提取核心文本
+            cleaned_line = line.strip('*').strip('#').strip('+').strip()  # 去除常见标记符号
+            core_category = cleaned_line.split('（')[0].split('(')[0].strip()  # 去除括号及内部内容
+
+            # 宽松匹配类别（忽略大小写）
+            matched_category = None
+            for cat in CATEGORIES:
+                if core_category.lower() == cat.lower():
+                    matched_category = cat
+                    break
+
+            if matched_category:
+                current_category = matched_category
+                continue
+            # 检查是否是其他可能的标题格式（包含"件"字的标题）
+            elif '件' in cleaned_line and any(cat.lower() in cleaned_line.lower() for cat in CATEGORIES):
+                for cat in CATEGORIES:
+                    if cat.lower() in cleaned_line.lower():
+                        current_category = cat
+                        break
                 else:
                     current_category = "Other"
                 continue
 
-            # 处理事件行
-            if current_category and line and line[0].isdigit() and '.' in line[:5]:
-                # 提取事件内容（去除序号）
-                event = line.split('. ', 1)[1] if '. ' in line else line
+            # 处理事件行（非标题行且当前有活跃类别）
+            if current_category:
+                # 事件行特征：包含日期（YYYY-MM-DD）或不匹配标题格式
+                event = line
+                # 去除可能的序号（如数字+.开头）
+                if event and event[0].isdigit() and ('.' in event[:5] or '、' in event[:5]):
+                    event = event.split('. ', 1)[1] if '. ' in event else event.split('、', 1)[
+                        1] if '、' in event else event
+
                 event_data[current_category]['events'].append(event)
-                event_data[current_category]['count'] += 1  # 数量加1
+                event_data[current_category]['count'] += 1
 
         return event_data
 
@@ -179,7 +201,7 @@ class Scheduler:
         data = data1 + data2
         print(data)
 
-        def split_array(arr, chunk_size=30):
+        def split_array(arr, chunk_size=20):
             # 列表推导式：从0开始，每30个元素取一次
             return [arr[i:i + chunk_size] for i in range(0, len(arr), chunk_size)]
 
@@ -195,11 +217,12 @@ class Scheduler:
         return res
 
     def main_gen_event(self):
-        txt_file_path = "data/output.txt"
-        res = self.genevent_yearterm(self.persona)#persona处理+三轮事件生成
-        with open(txt_file_path, "w", encoding="utf-8") as file: #记录，防止丢失
-            for s in res:
-                file.write(s + "\n")  # 每个字符串后加换行符，实现分行存储
+        txt_file_path = self.file_path+"process/output.txt"
+        if not os.path.exists(txt_file_path):
+            res = self.genevent_yearterm(self.persona)#persona处理+三轮事件生成
+            with open(txt_file_path, "w", encoding="utf-8") as file: #记录，防止丢失
+                for s in res:
+                    file.write(s + "\n")  # 每个字符串后加换行符，实现分行存储
         # 提取事件并生成字符串数组
         event_stats = self.extract_events_by_categories(txt_file_path)#从记录文件中提取事件
         result = []
@@ -208,7 +231,7 @@ class Scheduler:
             res = self.standard_data(data['events'],category)
             print(f"【{category}】（生成{len(res)}件）")
             result = result + res
-            with open("data/event.json", "w", encoding="utf-8") as f:
+            with open(self.file_path+"process/event_1.json", "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
         self.raw_events = result
 
@@ -446,7 +469,7 @@ class Scheduler:
 
             # 判断事件时间范围与目标月份是否有重叠
             # 重叠条件：事件开始时间 <= 目标月份结束 且 事件结束时间 >= 目标月份开始
-            if event_start <= target_month_end and event_end >= target_month_start:
+            if event_start <= target_month_end and event_start >= target_month_start:
                 result.append(event)
 
         return result
@@ -515,7 +538,7 @@ class Scheduler:
 
     def event_schedule(self,data,month):
         prompt = template_process_4.format(content=data, persona=self.persona,calendar=self.get_month_calendar(2025,month))
-        res = self.llm_call_sr(prompt,1)
+        res = self.llm_call_sr(prompt)
         print(res)
         data = json.loads(res)
         return data
@@ -553,16 +576,16 @@ class Scheduler:
         for i in range(1,13):
             rest = self.event_schedule(self.get_events_by_month(data,2025,i),i) #逐月规划主题事件
             res+=rest
-            with open(file+"event_s.json", "w", encoding="utf-8") as f: #保存主题事件
+            with open(file+"process/event_2.json", "w", encoding="utf-8") as f: #保存主题事件
                 json.dump(res, f, ensure_ascii=False, indent=2)
         self.final_schedule = res
     def main_decompose_event(self,data,file):
         # res = read_json_file(file+"event.json")
-        # res = scheduler.merge_events_events(res) #做预处理，防止主题事件文件出错
-        # res = scheduler.split_and_convert_events(res)
-        # res = scheduler.sort_and_add_event_id(res)
+        res = self.merge_events_events(data) #做预处理，防止主题事件文件出错
+        res = self.split_and_convert_events(res)
+        res = self.sort_and_add_event_id(res)
         #分解事件
-        self.event_decomposer(data,file)
+        self.event_decomposer(res,file)
 
 
 # 使用示例

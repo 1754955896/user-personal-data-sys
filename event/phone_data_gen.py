@@ -404,7 +404,7 @@ type：固定“push”
 1. 去重约束：与短信数据重复的交流内容不生成；社交平台通信信息不纳入推送范围
 2. 细节匹配：推送内容需包含事件中的具体信息（如支付金额、预定时间、订单编号等），禁止泛化表述
 3. 频率控制：同一APP同一事件24小时内推送≤2条（如支付成功+账单同步可合并为1条）
-4. 画像匹配：个人类推送需包含用户行为偏好（如股民→雪球股票行情，宝妈→宝宝树育儿提醒）
+4. 画像匹配：个人类推送需包含用户行为偏好（如股民→雪球股票行情，宝妈→宝宝树育儿提醒）,出画像外也可以基于事件描述的内容生成用户感兴趣的推送。
 
 四、输出格式要求
 输出格式严格要求,仅输出JSON格式内容，不添加任何额外文本、注释或代码块标记。只输出一个数组，无论有没有事件来源都放在该数组内。示例：
@@ -570,7 +570,7 @@ d = []
 # d = read_json_file('event_note.json')
 
 
-def phone_gen(date,contact):
+def phone_gen(date,contact,file_path):
     global a,b,c,d
     #获取今日daily_event
     res1 = extool.filter_by_date(date)
@@ -587,7 +587,7 @@ def phone_gen(date,contact):
     res = remove_json_wrapper(res)
     data = json.loads(res)
     c += data
-    with open("data/phone_data/event_call.json", "w", encoding="utf-8") as f:
+    with open(file_path+"phone_data/event_call.json", "w", encoding="utf-8") as f:
         json.dump(c, f, ensure_ascii=False, indent=2)
     #gallery
     prompt = phone_event_Gallery_template.format(event=res, persona=extool.persona)
@@ -596,7 +596,7 @@ def phone_gen(date,contact):
     resx = remove_json_wrapper(resx)
     data = json.loads(resx)
     a+=data
-    with open("data/phone_data/event_gallery.json", "w", encoding="utf-8") as f:
+    with open(file_path+"phone_data/event_gallery.json", "w", encoding="utf-8") as f:
         json.dump(a, f, ensure_ascii=False, indent=2)
     #push
     prompt = phone_event_Push_template.format(event=res,contacts=contact,persona=extool.persona_withoutrl,msm=resx)
@@ -605,7 +605,7 @@ def phone_gen(date,contact):
     res = remove_json_wrapper(res)
     data = json.loads(res)
     b += data
-    with open("data/phone_data/event_push.json", "w", encoding="utf-8") as f:
+    with open(file_path+"phone_data/event_push.json", "w", encoding="utf-8") as f:
         json.dump(b, f, ensure_ascii=False, indent=2)
     #calendar+note
     prompt = phone_event_Calendar_template.format(event=res,back = get_daily_events_with_subevent(extool.events,date),persona=extool.persona_withoutrl)
@@ -614,7 +614,7 @@ def phone_gen(date,contact):
     res = remove_json_wrapper(res)
     data =json.loads(res)
     d += data
-    with open("data/phone_data/event_note.json", "w", encoding="utf-8") as f:
+    with open(file_path+"phone_data/event_note.json", "w", encoding="utf-8") as f:
         json.dump(d, f, ensure_ascii=False, indent=2)
     return
 

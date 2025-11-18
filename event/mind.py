@@ -12,7 +12,7 @@ from event.templates import *
 from event.memory import *
 from typing import List, Dict, Optional
 class Mind:
-    def __init__(self):
+    def __init__(self,file_path):
         self.calendar = {}  # 存储日程数据，格式如{"2025-01-01":["event1","event2"],...}
         self.events = []
         self.persona = ""
@@ -27,6 +27,7 @@ class Mind:
         self.bottom_events : Optional[List[Dict]] = None
         self.maptools = MapMaintenanceTool("e8f87eef67cfe6f83e68e7a65b9b848b")
         self.env = ""
+        self.file_path = file_path
 
     def save_to_json(self):
         data = {}
@@ -181,14 +182,10 @@ class Mind:
                     break # 避免同一事件因多个日期重复加入
 
         return matched
-    def load_from_json(self,event,persona,record=1,cog = '''
-            我叫徐静，28 岁，1993 年 7 月 10 日出生在上海浦东，如今仍住在浦东张杨路 123 号，和父母同住，目前未婚。作为汉族人，我高中毕业后就进入家族经营的明芳服饰工作，2012 年 6 月 15 日是我第一份工作的入职日，从基层销售员一步步做到 2020 年 8 月 20 日晋升为销售主管，现在在浦东世纪大道 88 号的店面上班，每周工作 48 小时，负责店面管理、客户服务和团队协调，同事里和陈丽、赵敏搭档最默契，也常与供应商孙老板、商场周经理对接业务，工作稳定且和家庭事业深度绑定，未来还想拥有自己的服装店。我家经济状况还算稳定，我年收入约 10 万元，有一处房产和家用汽车，没做股票基金这类投资，消费偏谨慎，更看重基本生活保障。父母都在家族企业做事，父亲徐明是企业主，半退休后仍每周到店指导，我们每周至少三次家庭聚餐；母亲李芳是财务主管，每天会给我准备午餐便当，母女俩常一起逛街选新款；哥哥徐强在杭州做电商运营，每月回上海探亲，还会帮我出线上销售的主意。我身高 158cm、体重 62.5kg，BMI25.04，整体健康状况良好，没有慢性病，有家庭医生吴明远，不定期做体检，每周会跟着郑教练练三次健身，还会去周老师的瑜伽工作室上课，和瑜伽伙伴李娜课后常一起喝下午茶，高中的时候喜欢上打羽毛，偶尔和赵小美一起打。日常生活里我很依赖互联网，爱用社交和购物 APP，休闲时喜欢逛街购物、在家听流行音乐、打羽毛球，还有个收藏纪念币的爱好，北京的藏友王明远会和我偶尔交流藏品；最爱吃上海小笼包、抹茶拿铁和草莓蛋糕，每月会和上海的高中闺蜜王丽逛一次街、喝下午茶，和杭州的闺蜜张婷每月视频聊天，每年还会安排一两次短途旅行探亲或度假。作为 ESFJ 人格，我性格热情也负责任，在生活上关心家庭，在工作中擅长和客户、同事沟通，生活里常和高中同学赵小美、钱多多保持联系，也会跟杭州的同行李雪梅交流行业动态，连杭州的熟客张总每季度来上海出差都会到店里看看，现在的生活平淡却充实，既希望能实现开分店的目标。
-            ''',context = "你是一位 28 岁上海浦东未婚女徐静，高中学历，健康偏胖有房有车，服饰销售主管，ESFJ。"):
-            self.persona = persona
+    def load_from_json(self,event,persona,record=1):
+            self.persona = copy.deepcopy(persona)
             self.events = event
             #生成context和自我认知
-            self.cognition = cog
-            self.context = context
             self.long_memory = ""
             self.short_memory = ""
             if record==1:
@@ -197,6 +194,27 @@ class Mind:
                 self.short_memory = d['short_memory']
                 self.thought = d['thought']
                 self.env = d['env']
+                self.cognition = d['cognition']
+                self.context = d['context']
+            else:
+                t1 = '''
+                请你基于下面的个人画像，以第一人称视角描述你对自己的自我认知，包括1）个人基本信息。2）工作的主要特征、内容、方式、习惯、主要人物。3）家庭的主要特征、内容、方式、习惯、主要人物。4）其他生活的主要特征、内容、方式、习惯、主要人物。5）平常工作日的常见安排，目前的主要每天安排。
+                个人画像：{persona}
+                '''
+
+                t2 = '''
+                请你基于下面的个人画像，设计一句让大模型扮演该角色的context，以”你是一位“开头。不超过50个字，只保留重要信息。
+                个人画像：{persona}
+                '''
+
+                prompt = t1.format(persona=self.persona)
+                res = self.llm_call_s(prompt)
+                print(res)
+                self.cognition = res
+                prompt = t2.format(persona=self.persona)
+                res = self.llm_call_s(prompt)
+                print(res)
+                self.context = res
             del persona["relation"]
             self.persona_withoutrl = persona
 
@@ -907,7 +925,7 @@ class Mind:
         #短期记忆更新
         self.update_short_memory(m, date)
         self.save_to_json()
-        with open("data/event_update.json", "w", encoding="utf-8") as f:
+        with open(self.file_path+"event_update.json", "w", encoding="utf-8") as f:
             json.dump(self.events, f, ensure_ascii=False, indent=2)
 
         return True
