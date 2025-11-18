@@ -1,0 +1,6570 @@
+[
+  {
+    "event_id": "101_related_1",
+    "type": "photo",
+    "caption": "潘志强在书房整理孩子的复习资料，书桌上摆放着各种教材和笔记本",
+    "title": "IMG_20250101_061200",
+    "datetime": "2025-01-01 06:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "复习资料",
+      "教材",
+      "笔记本",
+      "书桌",
+      "文具",
+      "收纳整理",
+      "学习用品"
+    ],
+    "ocrText": "初中数学复习资料 - 2025年1月版",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "111_related_1",
+    "type": "photo",
+    "caption": "潘志强和家人一起制作手工皂，桌面上摆放着皂基、模具和精油等材料",
+    "title": "IMG_20250101_152500",
+    "datetime": "2025-01-01 15:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "妻子",
+      "孩子"
+    ],
+    "imageTag": [
+      "手工皂",
+      "DIY",
+      "皂基",
+      "模具",
+      "精油",
+      "家庭活动",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "112",
+    "type": "photo",
+    "caption": "潘志强拍摄永辉超市配送的食材包裹，包括新鲜蔬菜和肉类",
+    "title": "IMG_20250101_170500",
+    "datetime": "2025-01-01 17:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "永辉超市",
+      "食材包裹",
+      "蔬菜",
+      "肉类",
+      "生鲜食品",
+      "网购",
+      "配送"
+    ],
+    "ocrText": "永辉超市订单 - 订单号：YH20250101XXXX - 金额：158.60元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "117",
+    "type": "photo",
+    "caption": "潘志强展示制作完成的手工皂成品，各种形状和颜色的香皂整齐排列",
+    "title": "IMG_20250101_210500",
+    "datetime": "2025-01-01 21:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂成品",
+      "天然香皂",
+      "DIY作品",
+      "手工制作",
+      "香皂模具",
+      "成品展示"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "123",
+    "type": "photo",
+    "caption": "潘志强在宁波北仑港城路顺达物流公司停车场拍摄轮胎检测情况，周师傅正在检查货车轮胎",
+    "title": "IMG_20250102_083700",
+    "datetime": "2025-01-02 08:37:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司停车场"
+    },
+    "faceRecognition": [
+      "周师傅"
+    ],
+    "imageTag": [
+      "货车轮胎",
+      "胎纹检测",
+      "气压表",
+      "维修工具",
+      "停车场",
+      "晨间检测"
+    ],
+    "ocrText": "顺达物流 轮胎检测单 2025-01-02 胎压2.5Bar",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "125",
+    "type": "photo",
+    "caption": "潘志强在宁波北仑港区修理厂拍摄更换轮胎过程，孙师傅正在安装新轮胎",
+    "title": "IMG_20250102_113400",
+    "datetime": "2025-01-02 11:34:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "156号",
+      "poi": "港区汽车修理厂"
+    },
+    "faceRecognition": [
+      "孙师傅"
+    ],
+    "imageTag": [
+      "新轮胎",
+      "轮胎安装",
+      "千斤顶",
+      "修理厂",
+      "工具车",
+      "货车维修"
+    ],
+    "ocrText": "米其林轮胎 185/65R15 生产日期2024-10",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "124",
+    "type": "photo",
+    "caption": "潘志强在宁波北仑港区仓库拍摄物流运单，显示预计到达时间12:56",
+    "title": "IMG_20250102_114600",
+    "datetime": "2025-01-02 11:46:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "顺达物流仓库"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "物流运单",
+      "条形码",
+      "预计时间",
+      "手持单据",
+      "仓库背景",
+      "工作记录"
+    ],
+    "ocrText": "顺达物流 运单NB20250102001 预计到达12:56 收货方已确认",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "128",
+    "type": "photo",
+    "caption": "潘志强在宁波鄞州区家中填写行车日志，桌面上摆放着清洗干净的车辆钥匙",
+    "title": "IMG_20250102_170500",
+    "datetime": "2025-01-02 17:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "行车日志",
+      "笔记本",
+      "圆珠笔",
+      "车辆钥匙",
+      "桌面",
+      "工作记录"
+    ],
+    "ocrText": "行车日志 2025-01-02 里程数285km 车辆已清洗",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "140",
+    "type": "photo",
+    "caption": "潘志强在宁波北仑港城路顺达物流公司仓库内拍摄新型射频扫码枪特写，扫码枪放置在货物包装箱上",
+    "title": "IMG_20250103_081600",
+    "datetime": "2025-01-03 08:16:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司仓库"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "射频扫码枪",
+      "货物包装箱",
+      "物流设备",
+      "工作工具",
+      "黑色机身",
+      "液晶屏幕",
+      "条形码",
+      "仓库环境"
+    ],
+    "ocrText": "SN20250103001\n广科冷链\n射频扫描枪V2.0",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "140",
+    "type": "photo",
+    "caption": "潘志强与周师傅在物流公司地磅处合影，背景显示地磅显示屏上的23.5kg重量数据",
+    "title": "IMG_20250103_081700",
+    "datetime": "2025-01-03 08:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司地磅区"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "周师傅"
+    ],
+    "imageTag": [
+      "地磅",
+      "重量显示",
+      "工作合影",
+      "物流工作",
+      "橙色工装",
+      "安全帽",
+      "数字显示屏"
+    ],
+    "ocrText": "23.5kg\n宁波顺达物流\n地磅编号：DB-2023",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "150",
+    "type": "photo",
+    "caption": "潘志强拍摄小区健身器材区的照明盲区照片，夜间灯光昏暗处健身器材轮廓模糊",
+    "title": "IMG_20250103_191600",
+    "datetime": "2025-01-03 19:16:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "健身器材",
+      "照明盲区",
+      "夜间拍摄",
+      "小区环境",
+      "单杠",
+      "跑步机",
+      "灯光昏暗",
+      "安全隐患"
+    ],
+    "ocrText": "健身器材使用须知\n开放时间：6:00-22:00\n物业电话：4001234567",
+    "shoot_mode": "夜景",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "150",
+    "type": "photo",
+    "caption": "潘志强整理的手工皂制作材料收纳照片，各种精油和模具整齐摆放在工作台上",
+    "title": "IMG_20250103_191700",
+    "datetime": "2025-01-03 19:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中工作室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "DIY材料",
+      "精油瓶",
+      "硅胶模具",
+      "收纳整理",
+      "工作台",
+      "天然原料",
+      "标签贴"
+    ],
+    "ocrText": "天然手工皂制作材料\n橄榄油基础油\n薰衣草精油\n制作日期：2025-01-03",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "155",
+    "type": "photo",
+    "caption": "潘志强在工商银行ATM机前查看账户余额，屏幕显示利息到账信息",
+    "title": "IMG_20250104_065800",
+    "datetime": "2025-01-04 06:58:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "工商银行ATM"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "ATM机",
+      "屏幕",
+      "银行交易",
+      "利息到账",
+      "早晨",
+      "金融"
+    ],
+    "ocrText": "工商银行 利息 XX元 补偿金 XX元 95588",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "157",
+    "type": "photo",
+    "caption": "潘志强在甬港菜市场购买黑龙江糯米，摊位上摆放着各种粮食",
+    "title": "IMG_20250104_080800",
+    "datetime": "2025-01-04 08:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "甬港北路",
+      "streetNumber": "XX号",
+      "poi": "甬港菜市场"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "黑龙江糯米",
+      "菜市场",
+      "粮食摊位",
+      "九折优惠",
+      "购物",
+      "食材"
+    ],
+    "ocrText": "甬港菜市场 黑龙江糯米 九折优惠 XX元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "161",
+    "type": "photo",
+    "caption": "潘志强在老味道面馆享用黄鱼煨面，桌上摆放着热气腾腾的面条",
+    "title": "IMG_20250104_125500",
+    "datetime": "2025-01-04 12:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "县学街",
+      "streetNumber": "XX号",
+      "poi": "老味道面馆"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "黄鱼煨面",
+      "面条",
+      "午餐",
+      "美食",
+      "面馆",
+      "热气腾腾"
+    ],
+    "ocrText": "老味道面馆 黄鱼煨面 15分钟取餐",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "162",
+    "type": "photo",
+    "caption": "潘雨婷在城隍庙地铁站出口等待，身后是地铁站标识和行人",
+    "title": "IMG_20250104_141600",
+    "datetime": "2025-01-04 14:16:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "县学街",
+      "streetNumber": "XX号",
+      "poi": "城隍庙地铁站"
+    },
+    "faceRecognition": [
+      "潘雨婷"
+    ],
+    "imageTag": [
+      "地铁站",
+      "城隍庙",
+      "等待",
+      "出口",
+      "行人",
+      "城市交通"
+    ],
+    "ocrText": "城隍庙站 出口A 出口B 出口C",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "164",
+    "type": "photo",
+    "caption": "潘志强在社区健身区维护器材，双语说明牌清晰可见",
+    "title": "IMG_20250104_181800",
+    "datetime": "2025-01-04 18:18:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区健身区"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "健身器材",
+      "维护",
+      "双语说明牌",
+      "社区",
+      "照明灯",
+      "工具"
+    ],
+    "ocrText": "健身器材使用说明 中文 英文 安全注意事项",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "170_related_1",
+    "type": "photo",
+    "caption": "潘志强在寺庙义工活动中拍摄带来的枸杞物资，背景可见寺庙建筑和义工同伴",
+    "title": "IMG_20250105_041000",
+    "datetime": "2025-01-05 04:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "天童南路",
+      "streetNumber": "XX号",
+      "poi": "天童寺"
+    },
+    "faceRecognition": [
+      "李秀英",
+      "潘志强"
+    ],
+    "imageTag": [
+      "寺庙义工",
+      "枸杞物资",
+      "义工活动",
+      "寺庙建筑",
+      "清晨",
+      "物资交接"
+    ],
+    "ocrText": "天童寺义工活动 - 2025年1月5日 物资清单：枸杞5kg",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "174_related_1",
+    "type": "photo",
+    "caption": "潘志强在家中的厨房拍摄腊八饭制作过程，锅中食材丰富色泽诱人",
+    "title": "IMG_20250105_092500",
+    "datetime": "2025-01-05 09:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "张美丽"
+    ],
+    "imageTag": [
+      "腊八饭",
+      "厨房烹饪",
+      "家常美食",
+      "食材特写",
+      "锅具",
+      "美食制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "175",
+    "type": "photo",
+    "caption": "潘志强在家中整理孩子书包，拍摄文具补充在侧袋的特写",
+    "title": "IMG_20250105_111600",
+    "datetime": "2025-01-05 11:16:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "文具整理",
+      "书包侧袋",
+      "学习用品",
+      "物品收纳",
+      "家长准备",
+      "学生用品"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "175_related_1",
+    "type": "photo",
+    "caption": "潘志强在维修车间拍摄货车右后轮磨损情况，轮毂变形清晰可见",
+    "title": "IMG_20250105_113500",
+    "datetime": "2025-01-05 11:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流维修车间"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "货车维修",
+      "轮胎磨损",
+      "轮毂变形",
+      "车辆检修",
+      "维修车间",
+      "轮胎特写"
+    ],
+    "ocrText": "检修报告：右后轮纹路1.1mm 轮毂变形需专业维修 - 2025-01-05",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "177",
+    "type": "photo",
+    "caption": "潘志强在公园南门等待时拍摄准备的水果茶点",
+    "title": "IMG_20250105_134500",
+    "datetime": "2025-01-05 13:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中兴路",
+      "streetNumber": "XX号",
+      "poi": "鄞州公园南门"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "水果茶点",
+      "公园休息",
+      "户外零食",
+      "家庭聚会",
+      "休闲时光",
+      "食物准备"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "177",
+    "type": "photo",
+    "caption": "潘志强在鄞州公园南门与家人合影，背景是公园景观和游乐设施",
+    "title": "IMG_20250105_140000",
+    "datetime": "2025-01-05 14:00:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中兴路",
+      "streetNumber": "XX号",
+      "poi": "鄞州公园"
+    },
+    "faceRecognition": [
+      "潘雨婷",
+      "潘志强",
+      "潘明轩"
+    ],
+    "imageTag": [
+      "家庭合影",
+      "公园游玩",
+      "亲子时光",
+      "游乐设施",
+      "户外活动",
+      "家人聚会"
+    ],
+    "ocrText": "鄞州公园 - 国家AAA级旅游景区 开放时间：6:00-22:00",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "183_related_1",
+    "type": "photo",
+    "caption": "潘志强在社区健身区拍摄新安装的健身器材，背景有晨练的居民",
+    "title": "IMG_20250106_065500",
+    "datetime": "2025-01-06 06:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山社区健身园"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "健身器材",
+      "社区健身",
+      "晨光",
+      "金属器械",
+      "安全标识",
+      "公共设施"
+    ],
+    "ocrText": "中山社区健身园 - 开放时间 6:00-22:00 - 器材维护热线 0574-XXXXXXX",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "184",
+    "type": "photo",
+    "caption": "潘志强拍摄早餐外卖包装，桌上有宁波汤圆和葱油拌面",
+    "title": "IMG_20250106_071200",
+    "datetime": "2025-01-06 07:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "外卖早餐",
+      "宁波汤圆",
+      "葱油拌面",
+      "打包盒",
+      "餐具",
+      "家常美食"
+    ],
+    "ocrText": "XX外卖 - 订单号 NJ202501060648 - 预计送达 07:10",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "187",
+    "type": "photo",
+    "caption": "潘志强在商务区拍摄创意店铺门面设计，玻璃幕墙反射街景",
+    "title": "IMG_20250106_113500",
+    "datetime": "2025-01-06 11:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "药行街",
+      "streetNumber": "XX号",
+      "poi": "天一广场商务区"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "店铺设计",
+      "创意门面",
+      "玻璃幕墙",
+      "商业街区",
+      "现代风格",
+      "街景"
+    ],
+    "ocrText": "创意空间设计工作室 - 营业时间 9:00-18:00 - 设计咨询 0574-XXXXXXX",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "187",
+    "type": "photo",
+    "caption": "潘志强微距拍摄店铺装饰细节，展示独特的金属logo雕刻",
+    "title": "IMG_20250106_113800",
+    "datetime": "2025-01-06 11:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "药行街",
+      "streetNumber": "XX号",
+      "poi": "天一广场商务区"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "店铺logo",
+      "金属雕刻",
+      "装饰细节",
+      "微距特写",
+      "创意设计",
+      "工艺展示"
+    ],
+    "ocrText": "ART SPACE - Since 2018 - 专业商业空间设计",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "188",
+    "type": "photo",
+    "caption": "潘志强在工作室拍摄DIY手工皂模具和环保油墨材料",
+    "title": "IMG_20250106_121800",
+    "datetime": "2025-01-06 12:18:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家工作室"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "手工皂模具",
+      "环保油墨",
+      "DIY材料",
+      "工作台",
+      "工具摆放",
+      "创意手工"
+    ],
+    "ocrText": "茉莉花皂模具 - 环保认证 - 材质：食品级硅胶",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "186_related_1",
+    "type": "photo",
+    "caption": "潘志强在汽修店拍摄车辆右后轮更换过程，技师正在操作",
+    "title": "IMG_20250106_095500",
+    "datetime": "2025-01-06 09:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "XX号",
+      "poi": "顺达汽修服务中心"
+    },
+    "faceRecognition": [
+      "马明辉"
+    ],
+    "imageTag": [
+      "汽车维修",
+      "轮胎更换",
+      "千斤顶",
+      "工具设备",
+      "维修车间",
+      "技师工作"
+    ],
+    "ocrText": "顺达汽修 - 轮胎服务 - 米其林轮胎授权店 - 服务热线 0574-XXXXXXX",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "196",
+    "type": "photo",
+    "caption": "潘志强在康复训练中心拍摄训练记录表，表格上显示肩关节活动度数据",
+    "title": "IMG_20250107_065200",
+    "datetime": "2025-01-07 06:52:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区康复中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "康复训练",
+      "记录表",
+      "肩关节",
+      "活动度",
+      "数据",
+      "晨间",
+      "医疗",
+      "文档"
+    ],
+    "ocrText": "肩关节康复训练记录 2025-01-07 活动度：前屈150° 外展90°",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "196",
+    "type": "photo",
+    "caption": "潘志强在康复中心走廊拍摄导视牌，显示各科室分布信息",
+    "title": "IMG_20250107_065500",
+    "datetime": "2025-01-07 06:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区康复中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "导视牌",
+      "康复中心",
+      "科室分布",
+      "指示牌",
+      "走廊",
+      "室内"
+    ],
+    "ocrText": "康复治疗区→ 理疗科→ 运动训练室→ 开放时间：周一至周六 8:00-17:30",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "197_related_1",
+    "type": "photo",
+    "caption": "潘志强在超市货架前拍摄酱油和醋的特写，货架上摆放着各种调味品",
+    "title": "IMG_20250107_191500",
+    "datetime": "2025-01-07 19:15:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家超市"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "酱油",
+      "醋",
+      "调味品",
+      "货架",
+      "超市",
+      "购物",
+      "特写"
+    ],
+    "ocrText": "海天酱油 500ml ￥12.8 镇江香醋 350ml ￥8.5",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "197_related_1",
+    "type": "photo",
+    "caption": "潘志强在超市收银台拍摄购物小票，显示购买商品清单和价格",
+    "title": "IMG_20250107_191800",
+    "datetime": "2025-01-07 19:18:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家超市"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "购物小票",
+      "收据",
+      "价格",
+      "清单",
+      "超市",
+      "消费"
+    ],
+    "ocrText": "华润万家 2025-01-07 19:17 海天酱油￥12.8 镇江香醋￥8.5 合计：￥21.3",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "206",
+    "type": "photo",
+    "caption": "潘志强在家中厨房拍摄购买的青菜和豆腐，摆放在料理台上",
+    "title": "IMG_20250107_163000",
+    "datetime": "2025-01-07 16:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "青菜",
+      "豆腐",
+      "生鲜",
+      "食材",
+      "料理台",
+      "晚餐准备",
+      "新鲜"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "206",
+    "type": "photo",
+    "caption": "潘志强拍摄小6生鲜购物袋，袋子上印有店铺logo和宣传语",
+    "title": "IMG_20250107_163200",
+    "datetime": "2025-01-07 16:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "购物袋",
+      "小6生鲜",
+      "logo",
+      "塑料袋",
+      "超市",
+      "购物"
+    ],
+    "ocrText": "小6生鲜 新鲜到家 服务热线：400-123-4567",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "213",
+    "type": "photo",
+    "caption": "潘志强在厨房制作葱油饼，面团和配料摆放在案板上",
+    "title": "IMG_20250107_203000",
+    "datetime": "2025-01-07 20:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "葱油饼",
+      "面团",
+      "香葱",
+      "案板",
+      "烹饪",
+      "晚餐准备",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "213",
+    "type": "photo",
+    "caption": "潘志强拍摄豆浆机工作时的特写，显示正在制作豆浆",
+    "title": "IMG_20250107_203500",
+    "datetime": "2025-01-07 20:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "豆浆机",
+      "豆浆",
+      "制作中",
+      "厨房电器",
+      "早餐准备",
+      "热气"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "217",
+    "type": "photo",
+    "caption": "潘志强在宁波顺达物流公司维修车间拍摄左前刹车片，刹车片厚度显示2.1mm",
+    "title": "IMG_20250108_094800",
+    "datetime": "2025-01-08 09:48:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司维修车间"
+    },
+    "faceRecognition": [
+      "马明辉"
+    ],
+    "imageTag": [
+      "刹车片",
+      "厚度测量",
+      "维修车间",
+      "货车配件",
+      "工具台",
+      "机械维修",
+      "原厂配件",
+      "卡尺",
+      "工作记录"
+    ],
+    "ocrText": "左前刹车片 厚度2.1mm 建议更换 原厂配件",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "217",
+    "type": "photo",
+    "caption": "潘志强在维修车间拍摄维修工单，上面记录着刹车片更换时间和费用明细",
+    "title": "IMG_20250108_095000",
+    "datetime": "2025-01-08 09:50:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司维修车间"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "维修工单",
+      "费用明细",
+      "手写记录",
+      "工作时间",
+      "配件清单",
+      "维修车间",
+      "单据拍摄"
+    ],
+    "ocrText": "维修工单 2025-01-08 刹车片更换 工时费180元 配件费320元 总计500元",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "218",
+    "type": "photo",
+    "caption": "潘志强在家中书桌前拍摄安全培训资料封面，资料标题清晰可见",
+    "title": "IMG_20250108_102200",
+    "datetime": "2025-01-08 10:22:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家书房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "安全培训",
+      "资料封面",
+      "物流运输",
+      "学习资料",
+      "书桌",
+      "文件扫描",
+      "工作准备"
+    ],
+    "ocrText": "物流运输安全培训手册 2025年1月版 宁波顺达物流有限公司",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "218",
+    "type": "photo",
+    "caption": "潘志强拍摄苏州线路运输任务交接单，上面有周师傅的签名确认",
+    "title": "IMG_20250108_102300",
+    "datetime": "2025-01-08 10:23:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家书房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "运输任务单",
+      "交接记录",
+      "签名确认",
+      "工作安排",
+      "苏州线路",
+      "周师傅",
+      "文件记录"
+    ],
+    "ocrText": "苏州线路运输任务交接单 2025-01-10 代班司机：周建军 确认签名",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "222",
+    "type": "photo",
+    "caption": "潘志强在家中拍摄女儿制作的手工皂成品，茉莉花干和绿茶皂基配比成功",
+    "title": "IMG_20250108_150600",
+    "datetime": "2025-01-08 15:06:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家客厅"
+    },
+    "faceRecognition": [
+      "潘雨婷"
+    ],
+    "imageTag": [
+      "手工皂",
+      "茉莉花",
+      "绿茶皂基",
+      "DIY手工",
+      "天然香皂",
+      "成品展示",
+      "家庭手工",
+      "香味测试"
+    ],
+    "ocrText": "茉莉绿茶手工皂 配比1:7.5 香味持久度提升15%",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "222",
+    "type": "photo",
+    "caption": "潘志强拍摄手工皂制作笔记，记录着配比试验的具体数据和步骤",
+    "title": "IMG_20250108_150700",
+    "datetime": "2025-01-08 15:07:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家客厅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "制作笔记",
+      "配比记录",
+      "试验数据",
+      "手写步骤",
+      "DIY记录",
+      "家庭活动",
+      "工艺改进"
+    ],
+    "ocrText": "手工皂试验记录 茉莉花干:绿茶皂基=1:7.5 香味持久度+15% 2025-01-08",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "224",
+    "type": "photo",
+    "caption": "潘志强在家中拍摄新安装的腰部按摩器，展示档位调节按钮和外观",
+    "title": "IMG_20250108_172600",
+    "datetime": "2025-01-08 17:26:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家卧室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "腰部按摩器",
+      "档位调节",
+      "健康器材",
+      "家用电器",
+      "按摩设备",
+      "缓解疲劳",
+      "新品开箱"
+    ],
+    "ocrText": "智能腰部按摩器 8档调节 适用人群：司机、办公室人员",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "224",
+    "type": "photo",
+    "caption": "潘志强拍摄按摩器使用说明书，重点展示档位调节和使用方法",
+    "title": "IMG_20250108_172700",
+    "datetime": "2025-01-08 17:27:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家卧室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "使用说明书",
+      "档位说明",
+      "操作方法",
+      "安全提示",
+      "产品参数",
+      "电器使用",
+      "健康护理"
+    ],
+    "ocrText": "腰部按摩器使用说明 档位1-8级可调 每次使用15-30分钟 避免饭后立即使用",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "229_related_1",
+    "type": "photo",
+    "caption": "潘志强在健身房拍摄康复训练视频截图，显示右侧肩关节活动度提升",
+    "title": "IMG_20250109_064900",
+    "datetime": "2025-01-09 06:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中健身房"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "康复训练",
+      "肩关节",
+      "活动度",
+      "视频截图",
+      "健身",
+      "早晨"
+    ],
+    "ocrText": "肩关节康复训练 - 右侧活动度提升3% - 2025年1月9日",
+    "shoot_mode": "正常拍照",
+    "image_size": "1920×1080"
+  },
+  {
+    "event_id": "231",
+    "type": "photo",
+    "caption": "潘志强在工商银行彩虹支行拍摄理财购买凭证，显示大额存单信息",
+    "title": "IMG_20250109_072200",
+    "datetime": "2025-01-09 07:22:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "彩虹南路",
+      "streetNumber": "128号",
+      "poi": "工商银行彩虹支行"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "理财凭证",
+      "大额存单",
+      "银行票据",
+      "3.15%利率",
+      "投资方案",
+      "稳健型"
+    ],
+    "ocrText": "工商银行理财购买凭证 金额：20000元 预期年化收益率：3.15% 购买时间：2025-01-09",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "233",
+    "type": "photo",
+    "caption": "潘志强在苏州普洛斯物流园拍摄货物交接现场，展示新型货物固定装置",
+    "title": "IMG_20250109_100000",
+    "datetime": "2025-01-09 10:00:00",
+    "location": {
+      "province": "江苏省",
+      "city": "苏州市",
+      "district": "工业园区",
+      "streetName": "金鸡湖大道",
+      "streetNumber": "XX号",
+      "poi": "苏州普洛斯物流园"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "赵明"
+    ],
+    "imageTag": [
+      "物流园",
+      "货物交接",
+      "固定装置",
+      "货车",
+      "运输",
+      "考察"
+    ],
+    "ocrText": "苏州普洛斯物流园 - 货物交接区 - 新型货物固定装置展示区",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "236",
+    "type": "photo",
+    "caption": "潘志强在文创园纸艺工坊拍摄女儿测试纸张吸墨效果",
+    "title": "IMG_20250109_125500",
+    "datetime": "2025-01-09 12:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "和义路",
+      "streetNumber": "XX号",
+      "poi": "文创园纸艺工坊"
+    },
+    "faceRecognition": [
+      "潘雨婷",
+      "潘志强"
+    ],
+    "imageTag": [
+      "纸艺工坊",
+      "吸墨测试",
+      "手工纸",
+      "文创",
+      "父女",
+      "DIY"
+    ],
+    "ocrText": "文创园纸艺工坊 - 纸张吸墨效果测试区 - 开放时间：9:00-18:00",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "240",
+    "type": "photo",
+    "caption": "潘志强在家中手工皂工作台拍摄茉莉花干和绿茶皂基配比成果",
+    "title": "IMG_20250109_163100",
+    "datetime": "2025-01-09 16:31:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中手工皂工作台"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "茉莉花干",
+      "绿茶皂基",
+      "模具",
+      "脱模",
+      "DIY香皂"
+    ],
+    "ocrText": "手工皂配方：茉莉花干:绿茶皂基=1:7.5 硬度测试数据：合格",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "244",
+    "type": "photo",
+    "caption": "潘志强拍摄健康助手APP显示的今日康复训练完成报告",
+    "title": "IMG_20250109_193100",
+    "datetime": "2025-01-09 19:31:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "健康助手",
+      "康复训练",
+      "肩颈舒适度",
+      "活动度",
+      "数据报告",
+      "手机截图"
+    ],
+    "ocrText": "健康助手 - 今日康复训练完成：肩颈舒适度改善明显，左侧肩部活动度提升3% - 2025-01-09",
+    "shoot_mode": "正常拍照",
+    "image_size": "1080×1920"
+  },
+  {
+    "event_id": "248",
+    "type": "photo",
+    "caption": "潘志强在家中新装的饮水机前拍摄特写，不锈钢机身与液晶显示屏清晰可见",
+    "title": "IMG_20250110_065500",
+    "datetime": "2025-01-10 06:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "饮水机",
+      "不锈钢",
+      "液晶屏",
+      "家用电器",
+      "晨跑后",
+      "厨房"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "248",
+    "type": "photo",
+    "caption": "潘志强在小区健身区进行肩胛训练，使用拉力器锻炼背部肌肉",
+    "title": "IMG_20250110_070200",
+    "datetime": "2025-01-10 07:02:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "肩胛训练",
+      "拉力器",
+      "健身",
+      "晨练",
+      "运动装备",
+      "户外健身"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "250",
+    "type": "photo",
+    "caption": "潘志强在培训中心停车场拍摄新更换的汽车轮胎，轮胎花纹清晰可见",
+    "title": "IMG_20250110_073000",
+    "datetime": "2025-01-10 07:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流培训中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "汽车轮胎",
+      "轮胎花纹",
+      "新车轮",
+      "货车配件",
+      "停车场",
+      "早晨"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "250",
+    "type": "photo",
+    "caption": "潘志强在培训中心门口拍摄建筑外观，玻璃幕墙与公司标识清晰",
+    "title": "IMG_20250110_073500",
+    "datetime": "2025-01-10 07:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流培训中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "培训中心",
+      "建筑外观",
+      "玻璃幕墙",
+      "公司标识",
+      "早晨",
+      "办公楼"
+    ],
+    "ocrText": "宁波顺达物流培训中心 - 成立于2005年",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "252_related_1",
+    "type": "photo",
+    "caption": "潘志强在测试场地拍摄湿滑路面刹车距离测量数据，记录本上详细记录测试结果",
+    "title": "IMG_20250110_102500",
+    "datetime": "2025-01-10 10:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "顺达物流测试场"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "测试数据",
+      "记录本",
+      "刹车距离",
+      "湿滑路面",
+      "测量工具",
+      "工作记录"
+    ],
+    "ocrText": "湿滑路面测试 - 刹车距离：比预期短0.5米 - 测试时间：2025-01-10",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "253",
+    "type": "photo",
+    "caption": "潘志强在食堂拍摄午餐菜品，红烧带鱼与葱油拌面摆放在餐盘中",
+    "title": "IMG_20250110_120000",
+    "datetime": "2025-01-10 12:00:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "公司食堂"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "红烧带鱼",
+      "葱油拌面",
+      "午餐",
+      "食堂菜品",
+      "美食",
+      "工作餐"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "257",
+    "type": "photo",
+    "caption": "潘志强手持培训结业证书在培训中心合影，证书上有公司印章与颁发日期",
+    "title": "IMG_20250110_163000",
+    "datetime": "2025-01-10 16:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流培训中心"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "培训证书",
+      "结业证书",
+      "公司印章",
+      "职业培训",
+      "手持证书",
+      "成就感"
+    ],
+    "ocrText": "宁波顺达物流有限公司 - 培训结业证书 - 颁发日期：2025年1月10日 - 培训项目：安全驾驶技能提升",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "262",
+    "type": "photo",
+    "caption": "潘志强在家中书房拍摄家庭支出账本，账本上详细记录各项开支与节省金额",
+    "title": "IMG_20250110_201000",
+    "datetime": "2025-01-10 20:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "家庭账本",
+      "支出记录",
+      "财务管理",
+      "手写笔记",
+      "节省预算",
+      "书房"
+    ],
+    "ocrText": "家庭支出明细 - 本月总支出：4800元 - 预算：5000元 - 节省：200元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "267",
+    "type": "photo",
+    "caption": "潘志强在社区活动中心二楼拍摄家电维修课程PPT，屏幕上显示电路图与安全须知",
+    "title": "IMG_20250115_140215",
+    "datetime": "2025-01-15 14:02:15",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区活动中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "PPT截图",
+      "电路图",
+      "家电维修",
+      "课程内容",
+      "投影屏幕",
+      "安全须知"
+    ],
+    "ocrText": "家电维修基础课程 - 时间：2025-01-15 14:00 - 主讲：王技师 - 免费公益课程",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "267",
+    "type": "photo",
+    "caption": "潘志强在社区活动中心拍摄手写课程笔记，内容包含工具清单与注意事项",
+    "title": "IMG_20250115_143045",
+    "datetime": "2025-01-15 14:30:45",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区活动中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "会议纪要",
+      "手写笔记",
+      "工具清单",
+      "注意事项",
+      "笔记本",
+      "圆珠笔"
+    ],
+    "ocrText": "工具清单：万用表、螺丝刀套装、电笔 - 注意事项：断电操作、绝缘检测",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "269",
+    "type": "photo",
+    "caption": "潘志强在超市生鲜区拍摄五花肉与广式香肠，购物车中装有年货食材",
+    "title": "IMG_20250111_103015",
+    "datetime": "2025-01-11 10:30:15",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "188号",
+      "poi": "华润万家超市"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "五花肉",
+      "广式香肠",
+      "年货采购",
+      "生鲜柜台",
+      "春节食材",
+      "购物车"
+    ],
+    "ocrText": "精品五花肉 - 价格：38.5元/斤 - 广式香肠 - 价格：45.8元/包",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "269",
+    "type": "photo",
+    "caption": "潘志强在家中对采购的年货进行收纳整理，冰箱内整齐摆放腊肉与香肠",
+    "title": "IMG_20250111_112030",
+    "datetime": "2025-01-11 11:20:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "物品收纳",
+      "冰箱整理",
+      "腊肉",
+      "香肠",
+      "保鲜盒",
+      "厨房"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "271",
+    "type": "photo",
+    "caption": "潘志强在手工皂工作台拍摄茉莉花干原料与成本计算表，旁边摆放电子秤",
+    "title": "IMG_20250111_140105",
+    "datetime": "2025-01-11 14:01:05",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中工作间"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "茉莉花干",
+      "原料成本",
+      "电子秤",
+      "计算表",
+      "DIY"
+    ],
+    "ocrText": "成本计算：茉莉花干15g/批 - 单价：2.5元/g - 建议用量：10g/批节约成本",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "271",
+    "type": "photo",
+    "caption": "潘志强扫描手工皂制作步骤文档，纸上写有材料配比与注意事项",
+    "title": "IMG_20250111_141520",
+    "datetime": "2025-01-11 14:15:20",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中工作间"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "文档扫描",
+      "手工皂教程",
+      "材料配比",
+      "步骤说明",
+      "A4纸",
+      "手写笔记"
+    ],
+    "ocrText": "手工皂基础配方：橄榄油200ml、椰子油100ml、碱液35g - 注意事项：戴手套操作、通风环境",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "285",
+    "type": "photo",
+    "caption": "潘志强在工商银行网点拍摄个人信用报告预约通知短信，显示预约号NB20250113001",
+    "title": "IMG_20250112_080300",
+    "datetime": "2025-01-12 08:03:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "工商银行鄞州支行"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手机屏幕",
+      "短信通知",
+      "银行预约",
+      "信用报告",
+      "身份证",
+      "工商银行",
+      "预约号",
+      "个人业务",
+      "金融",
+      "手机截图"
+    ],
+    "ocrText": "【工商银行】您已成功预约2025年1月13日9:00-10:00个人信用报告查询，预约号NB20250113001",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "289_related_2",
+    "type": "photo",
+    "caption": "潘志强在东区18号摊位拍摄腊肉产品，摊位上挂满各种腊肉制品",
+    "title": "IMG_20250112_102700",
+    "datetime": "2025-01-12 10:27:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁穿路",
+      "streetNumber": "XX号",
+      "poi": "宁波农副产品批发市场"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "腊肉摊位",
+      "农贸市场",
+      "东区18号",
+      "腊肉制品",
+      "猪肉腊味",
+      "传统腌制",
+      "市场环境",
+      "购物记录",
+      "食品采购"
+    ],
+    "ocrText": "东区18号摊位 - 特色腊肉专卖",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "293_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄汽车保养单据，显示博世刹车片型号和费用明细",
+    "title": "IMG_20250112_135300",
+    "datetime": "2025-01-12 13:53:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "顺达物流公司停车场"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "保养单据",
+      "刹车片",
+      "博世品牌",
+      "费用明细",
+      "汽车维修",
+      "货车保养",
+      "维修记录",
+      "单据拍摄",
+      "车辆维护"
+    ],
+    "ocrText": "型号：博世0986AB3120 费用：280元含工时费 下次保养：3万公里",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "294_related_1",
+    "type": "photo",
+    "caption": "潘志强在家制作手工皂时拍摄茉莉花干原料，旁边放着绿茶皂基",
+    "title": "IMG_20250112_144000",
+    "datetime": "2025-01-12 14:40:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂原料",
+      "茉莉花干",
+      "绿茶皂基",
+      "DIY制作",
+      "天然香皂",
+      "手工材料",
+      "家庭手工",
+      "皂基",
+      "花茶原料"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "299_related_1",
+    "type": "photo",
+    "caption": "潘志强在电影院拍摄《熊出没·逆转时空》电影票，准备带家人观看",
+    "title": "IMG_20250112_191700",
+    "datetime": "2025-01-12 19:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "钱湖北路",
+      "streetNumber": "XX号",
+      "poi": "宁波万达影城"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "电影票",
+      "熊出没",
+      "逆转时空",
+      "家庭娱乐",
+      "儿童电影",
+      "影院环境",
+      "票根",
+      "动画电影",
+      "周末活动"
+    ],
+    "ocrText": "《熊出没·逆转时空》 2025年1月13日 14:00 2号厅 票价45元",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "302_related_1",
+    "type": "photo",
+    "caption": "潘志强在晨跑后拍摄父亲张建军训练后的状态，背景为社区健身步道",
+    "title": "IMG_20250113_064900",
+    "datetime": "2025-01-13 06:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "鄞州公园"
+    },
+    "faceRecognition": [
+      "张建军",
+      "潘志强"
+    ],
+    "imageTag": [
+      "晨跑",
+      "父亲",
+      "训练",
+      "肩胛稳定",
+      "健身步道",
+      "清晨",
+      "运动服"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "302_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄晨跑路线图显示配速提升数据，手机屏幕清晰可见",
+    "title": "IMG_20250113_065000",
+    "datetime": "2025-01-13 06:50:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "鄞州公园健身步道"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "跑步软件",
+      "配速",
+      "路线图",
+      "手机屏幕",
+      "运动数据",
+      "轨迹记录"
+    ],
+    "ocrText": "配速5'30'' 距离8.5km 心率135",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "303",
+    "type": "photo",
+    "caption": "潘志强在早餐店拍摄刚购买的报纸和豆浆，木质餐桌上摆放整齐",
+    "title": "IMG_20250113_071200",
+    "datetime": "2025-01-13 07:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "198号",
+      "poi": "老宁波早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "报纸",
+      "豆浆",
+      "早餐",
+      "木质餐桌",
+      "塑料袋",
+      "热气腾腾"
+    ],
+    "ocrText": "宁波日报 2025年1月13日 星期一",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "308",
+    "type": "photo",
+    "caption": "潘志强在老码头海鲜面馆拍摄黄鱼面套餐，碗中黄鱼鲜嫩汤色乳白",
+    "title": "IMG_20250113_132500",
+    "datetime": "2025-01-13 13:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "66号",
+      "poi": "老码头海鲜面馆"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "黄鱼面",
+      "海鲜",
+      "午餐",
+      "乳白汤底",
+      "葱花",
+      "陶瓷碗"
+    ],
+    "ocrText": "老码头海鲜面馆 黄鱼面套餐 ￥38",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "311",
+    "type": "photo",
+    "caption": "潘志强在家中拍摄购买的桂花干，旁边摆放手工皂制作工具",
+    "title": "IMG_20250113_163800",
+    "datetime": "2025-01-13 16:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "桂花干",
+      "手工皂",
+      "DIY",
+      "天然原料",
+      "玻璃罐",
+      "制作工具"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "311",
+    "type": "photo",
+    "caption": "潘志强拍摄女儿制作的手工皂成品，皂体呈现淡黄色带有桂花颗粒",
+    "title": "IMG_20250113_164000",
+    "datetime": "2025-01-13 16:40:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "桂花",
+      "DIY成品",
+      "淡黄色",
+      "天然香皂",
+      "家庭手工"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "314",
+    "type": "photo",
+    "caption": "潘志强在宁波市鄞州区中山东路晨跑后拍摄早餐，桌上有宁波汤圆和葱油拌面",
+    "title": "IMG_20250114_065500",
+    "datetime": "2025-01-14 06:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "宁波汤圆",
+      "葱油拌面",
+      "早餐",
+      "中式餐具",
+      "晨跑后",
+      "营养早餐",
+      "餐桌"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "314",
+    "type": "photo",
+    "caption": "潘志强在小区健身区进行肩胛稳定训练，使用健身器材",
+    "title": "IMG_20250114_070200",
+    "datetime": "2025-01-14 07:02:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "肩胛训练",
+      "健身器材",
+      "晨练",
+      "运动服",
+      "户外健身",
+      "稳定性训练"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "318",
+    "type": "photo",
+    "caption": "潘志强在四两茶舍购买桂花干，展示包装袋",
+    "title": "IMG_20250114_103800",
+    "datetime": "2025-01-14 10:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "四两茶舍"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "桂花干",
+      "茶叶包装",
+      "茶舍",
+      "传统食材",
+      "购物记录",
+      "养生食材"
+    ],
+    "ocrText": "四两茶舍 - 桂花干 35元/包",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "318",
+    "type": "photo",
+    "caption": "潘志强在家准备低盐午餐，清蒸鱼和焯拌菠菜已做好",
+    "title": "IMG_20250114_114500",
+    "datetime": "2025-01-14 11:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "清蒸鱼",
+      "焯拌菠菜",
+      "低盐饮食",
+      "健康午餐",
+      "医生建议",
+      "家常菜"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "321",
+    "type": "photo",
+    "caption": "潘志强在汽修店检查车辆刹车片，测量刹车距离",
+    "title": "IMG_20250114_132000",
+    "datetime": "2025-01-14 13:20:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "顺达物流汽修点"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "刹车片",
+      "车辆保养",
+      "测量工具",
+      "汽修车间",
+      "轮胎检查",
+      "专业设备"
+    ],
+    "ocrText": "刹车距离测试 38.5米",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "321",
+    "type": "photo",
+    "caption": "潘志强记录车辆保养手册上的机油更换建议",
+    "title": "IMG_20250114_132500",
+    "datetime": "2025-01-14 13:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "顺达物流汽修点"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "保养手册",
+      "机油更换",
+      "车辆维护",
+      "文档记录",
+      "5000公里",
+      "保养周期"
+    ],
+    "ocrText": "建议每5000公里更换一次机油 顺达物流专用",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "324",
+    "type": "photo",
+    "caption": "潘志强在健身房检查肩部训练器的磨损情况",
+    "title": "IMG_20250114_152800",
+    "datetime": "2025-01-14 15:28:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "小区健身房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "肩部训练器",
+      "器材磨损",
+      "健身房",
+      "设备检查",
+      "维修需求",
+      "健身器材"
+    ],
+    "ocrText": "肩部训练器 磨损严重 需报修",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "324",
+    "type": "photo",
+    "caption": "潘志强在健身房填写器材报修单",
+    "title": "IMG_20250114_153200",
+    "datetime": "2025-01-14 15:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "小区健身房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "报修单",
+      "手写记录",
+      "健身房管理",
+      "维修申请",
+      "表格填写",
+      "办公用品"
+    ],
+    "ocrText": "器材报修单 肩部训练器 2025-01-14 潘志强",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "334",
+    "type": "photo",
+    "caption": "潘志强在小区健身区检查漫步机底座紧固情况，背景为晨练器材",
+    "title": "IMG_20250115_064830",
+    "datetime": "2025-01-15 06:48:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "漫步机",
+      "健身器材",
+      "底座紧固",
+      "晨练",
+      "小区环境",
+      "金属部件"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "334",
+    "type": "photo",
+    "caption": "潘志强在小区使用腰部按摩器，设备显示正常使用状态",
+    "title": "IMG_20250115_064900",
+    "datetime": "2025-01-15 06:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "腰部按摩器",
+      "健身器材",
+      "设备检查",
+      "小区",
+      "塑料外壳",
+      "功能正常"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "336",
+    "type": "photo",
+    "caption": "潘志强在电脑前查看12306购票页面，显示宁波出发车票信息",
+    "title": "IMG_20250115_083000",
+    "datetime": "2025-01-15 08:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中书房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "12306",
+      "购票页面",
+      "电脑屏幕",
+      "春运车票",
+      "宁波出发",
+      "时间提醒"
+    ],
+    "ocrText": "12306 宁波-XX地 1月20日8:00开售",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "337",
+    "type": "photo",
+    "caption": "潘志强制作的手工皂材料，桂花干和绿茶皂基摆放整齐",
+    "title": "IMG_20250115_095000",
+    "datetime": "2025-01-15 09:50:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中工作台"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "桂花干",
+      "绿茶皂基",
+      "DIY材料",
+      "天然香皂",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "337",
+    "type": "photo",
+    "caption": "潘志强记录的桂花绿茶手工皂配方笔记，显示1:6.5配比",
+    "title": "IMG_20250115_095100",
+    "datetime": "2025-01-15 09:51:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中工作台"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "配方笔记",
+      "手工皂",
+      "配比记录",
+      "温度控制",
+      "手写文字",
+      "制作步骤"
+    ],
+    "ocrText": "桂花绿茶手工皂 配比1:6.5 固化温度25℃",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "343",
+    "type": "photo",
+    "caption": "潘志强与儿子潘明轩在家中共进晚餐，餐桌上有红烧带鱼",
+    "title": "IMG_20250115_181500",
+    "datetime": "2025-01-15 18:15:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "家中餐厅"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "潘明轩"
+    ],
+    "imageTag": [
+      "家庭晚餐",
+      "红烧带鱼",
+      "父子合影",
+      "餐桌",
+      "家常菜",
+      "温馨氛围"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "348",
+    "type": "photo",
+    "caption": "潘志强在小区3号楼东侧拍摄需要维修的照明灯",
+    "title": "IMG_20250115_194500",
+    "datetime": "2025-01-15 19:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区3号楼"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "照明灯",
+      "维修记录",
+      "小区环境",
+      "路灯故障",
+      "夜间拍摄",
+      "公共设施"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "夜景",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "352",
+    "type": "photo",
+    "caption": "潘志强在宁徐早餐店拍摄刚购买的芝麻馅包子和现磨豆浆，早餐摆放在木质餐桌上",
+    "title": "IMG_20250116_070800",
+    "datetime": "2025-01-16 07:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐早餐"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "芝麻馅包子",
+      "现磨豆浆",
+      "早餐",
+      "木质餐桌",
+      "热气腾腾",
+      "早餐店",
+      "宁波早餐"
+    ],
+    "ocrText": "宁徐早餐 现磨豆浆2杯 芝麻馅包子3个 合计18元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "352",
+    "type": "photo",
+    "caption": "潘志强拍摄宁徐早餐店的门面和招牌，清晨街道行人稀少",
+    "title": "IMG_20250116_071000",
+    "datetime": "2025-01-16 07:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐早餐"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "早餐店门面",
+      "招牌",
+      "清晨",
+      "街道",
+      "行人稀少",
+      "早餐店外观"
+    ],
+    "ocrText": "宁徐早餐 营业时间 6:00-10:30",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "354",
+    "type": "photo",
+    "caption": "潘志强拍摄手工皂原料整齐摆放在工作台上，旁边放着电子秤和温度计",
+    "title": "IMG_20250116_093500",
+    "datetime": "2025-01-16 09:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "手工皂原料",
+      "电子秤",
+      "温度计",
+      "工作台",
+      "DIY手工皂",
+      "收纳整齐"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "354",
+    "type": "photo",
+    "caption": "潘志强拍摄手写的年货预算表，表格详细列出各项开支",
+    "title": "IMG_20250116_094000",
+    "datetime": "2025-01-16 09:40:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "年货预算表",
+      "手写表格",
+      "开支明细",
+      "财务管理",
+      "文档扫描"
+    ],
+    "ocrText": "年货预算表 食品类：1200元 礼品类：800元 其他：500元 总计：2500元",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "355",
+    "type": "photo",
+    "caption": "潘志强在物业办公室拍摄会议资料，包括文件袋和笔记本",
+    "title": "IMG_20250116_101200",
+    "datetime": "2025-01-16 10:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "小区物业办公室"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "会议资料",
+      "文件袋",
+      "笔记本",
+      "物业办公室",
+      "桌面",
+      "工作文件"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "355",
+    "type": "photo",
+    "caption": "潘志强拍摄物业办公室内的会议纪要白板，上面写有协商事项",
+    "title": "IMG_20250116_101500",
+    "datetime": "2025-01-16 10:15:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "小区物业办公室"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "会议纪要",
+      "白板",
+      "协商事项",
+      "物业会议",
+      "手写内容"
+    ],
+    "ocrText": "物业协商会议 停车位管理 垃圾处理 公共设施维护",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "357",
+    "type": "photo",
+    "caption": "潘志强在华润万家超市拍摄购物小票，显示消费金额和积分",
+    "title": "IMG_20250116_140000",
+    "datetime": "2025-01-16 14:00:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "购物小票",
+      "华润万家",
+      "消费金额",
+      "积分",
+      "超市购物",
+      "收银条"
+    ],
+    "ocrText": "华润万家 消费168.5元 积分累计1250分 可用积分兑换保鲜盒",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "357",
+    "type": "photo",
+    "caption": "潘志强拍摄华润万家超市内商品陈列，货架上摆放着各种日用品",
+    "title": "IMG_20250116_140200",
+    "datetime": "2025-01-16 14:02:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "超市货架",
+      "日用品",
+      "商品陈列",
+      "华润万家",
+      "购物环境"
+    ],
+    "ocrText": "华润万家 日用百货区 满199减30",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "358",
+    "type": "photo",
+    "caption": "潘志强拍摄刚入模的手工皂，模具整齐排列在工作台上",
+    "title": "IMG_20250116_172000",
+    "datetime": "2025-01-16 17:20:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "手工皂",
+      "入模",
+      "硅胶模具",
+      "工作台",
+      "DIY",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "358",
+    "type": "photo",
+    "caption": "潘志强拍摄温度计显示25度，旁边放着制作手工皂的工具",
+    "title": "IMG_20250116_172200",
+    "datetime": "2025-01-16 17:22:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "温度计",
+      "25度",
+      "手工皂工具",
+      "搅拌棒",
+      "量杯",
+      "温度控制"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "365",
+    "type": "photo",
+    "caption": "潘志强在宁徐便民早餐店拍摄刚购买的现磨豆浆和豆沙馅包子",
+    "title": "IMG_20250117_070600",
+    "datetime": "2025-01-17 07:06:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "现磨豆浆",
+      "豆沙馅包子",
+      "早餐",
+      "打包袋",
+      "热腾腾",
+      "早点铺"
+    ],
+    "ocrText": "宁徐便民早餐店 现磨豆浆 豆沙包 价格：6.5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "365",
+    "type": "photo",
+    "caption": "潘志强拍摄早餐店价目表，显示各类早点价格",
+    "title": "IMG_20250117_070700",
+    "datetime": "2025-01-17 07:07:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "价目表",
+      "早餐价格",
+      "豆浆",
+      "包子",
+      "菜单",
+      "早餐店"
+    ],
+    "ocrText": "宁徐便民早餐店 现磨豆浆3元 豆沙包2.5元 肉包3元 油条1.5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "367",
+    "type": "photo",
+    "caption": "潘志强拍摄手工皂保温箱温度显示25.5℃的状态",
+    "title": "IMG_20250117_080600",
+    "datetime": "2025-01-17 08:06:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "保温箱",
+      "温度计",
+      "25.5℃",
+      "DIY",
+      "固化中"
+    ],
+    "ocrText": "手工皂保温箱 温度：25.5℃ 状态：良好",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "367",
+    "type": "photo",
+    "caption": "潘志强拍摄正在固化的手工皂特写，皂体光滑细腻",
+    "title": "IMG_20250117_080700",
+    "datetime": "2025-01-17 08:07:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "皂体",
+      "固化",
+      "天然香皂",
+      "DIY",
+      "细腻"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "373",
+    "type": "photo",
+    "caption": "潘志强拍摄已加固的拖把杆和需要补充的百洁布",
+    "title": "IMG_20250117_144600",
+    "datetime": "2025-01-17 14:46:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "拖把杆",
+      "加固",
+      "百洁布",
+      "清洁工具",
+      "维修",
+      "家务"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "375",
+    "type": "photo",
+    "caption": "潘志强拍摄清蒸鲈鱼和低盐酱料的晚餐",
+    "title": "IMG_20250117_181600",
+    "datetime": "2025-01-17 18:16:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "清蒸鲈鱼",
+      "低盐酱料",
+      "晚餐",
+      "家常菜",
+      "火候控制",
+      "健康饮食"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "375",
+    "type": "photo",
+    "caption": "潘志强拍摄晚餐餐桌全景，包括清蒸鲈鱼和其他配菜",
+    "title": "IMG_20250117_181700",
+    "datetime": "2025-01-17 18:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "晚餐餐桌",
+      "清蒸鲈鱼",
+      "配菜",
+      "家庭晚餐",
+      "餐具",
+      "餐桌"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "378",
+    "type": "photo",
+    "caption": "潘志强拍摄小区楼道照明开关检查情况",
+    "title": "IMG_20250117_204600",
+    "datetime": "2025-01-17 20:46:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区楼道"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "楼道开关",
+      "照明系统",
+      "安全检查",
+      "小区设施",
+      "开关面板",
+      "公共区域"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "夜景",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "381",
+    "type": "photo",
+    "caption": "潘志强在宁徐便民早餐店拍摄购买的早餐，桌上有现磨豆浆、梅干菜肉包和宁波日报",
+    "title": "IMG_20250118_070500",
+    "datetime": "2025-01-18 07:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁徐路",
+      "streetNumber": "XX号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "早餐",
+      "现磨豆浆",
+      "梅干菜肉包",
+      "宁波日报",
+      "木质餐桌",
+      "早晨",
+      "热气腾腾"
+    ],
+    "ocrText": "宁徐便民早餐店 - 现磨豆浆2杯、梅干菜肉包3个、宁波日报1份，共计18.5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "394",
+    "type": "photo",
+    "caption": "潘志强在华润万家超市拍摄购物车内的商品，包括生活用品和食品",
+    "title": "IMG_20250118_190100",
+    "datetime": "2025-01-18 19:01:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "超市购物",
+      "华润万家",
+      "购物车",
+      "生活用品",
+      "食品",
+      "货架",
+      "电子小票"
+    ],
+    "ocrText": "华润万家 - 消费286.5元，会员积分抵扣15元，实付271.5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "395",
+    "type": "photo",
+    "caption": "潘志强在老码头海鲜排挡拍摄餐桌上的海鲜菜肴，包括红烧带鱼和葱油拌面",
+    "title": "IMG_20250118_191200",
+    "datetime": "2025-01-18 19:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "XX号",
+      "poi": "老码头海鲜排挡"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "海鲜",
+      "红烧带鱼",
+      "葱油拌面",
+      "餐桌",
+      "晚餐",
+      "灯光",
+      "美食特写"
+    ],
+    "ocrText": "老码头海鲜排挡 - 特色海鲜 营业时间：17:00-23:00",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "393",
+    "type": "photo",
+    "caption": "潘志强在小区健身区拍摄已维护好的漫步机，底座螺丝已紧固",
+    "title": "IMG_20250118_173200",
+    "datetime": "2025-01-18 17:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "健身器材",
+      "漫步机",
+      "维护",
+      "螺丝",
+      "小区",
+      "傍晚",
+      "工具特写"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "400",
+    "type": "photo",
+    "caption": "潘志强在宁徐便民早餐店拍摄早餐，桌上有现磨豆浆和宁波日报",
+    "title": "IMG_20250119_070300",
+    "datetime": "2025-01-19 07:03:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁徐路",
+      "streetNumber": "XX号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "现磨豆浆",
+      "宁波日报",
+      "早餐",
+      "木质餐桌",
+      "热气腾腾",
+      "早餐店",
+      "清晨"
+    ],
+    "ocrText": "宁徐便民早餐店 现磨豆浆 宁波日报 消费12.5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "400",
+    "type": "photo",
+    "caption": "潘志强拍摄早餐店菜单，上面有各种早餐价格",
+    "title": "IMG_20250119_070500",
+    "datetime": "2025-01-19 07:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁徐路",
+      "streetNumber": "XX号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "早餐菜单",
+      "价格表",
+      "豆浆",
+      "包子",
+      "油条",
+      "早餐店",
+      "价目表"
+    ],
+    "ocrText": "现磨豆浆 5元 肉包 3元 油条 2元 宁波日报 7.5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "402",
+    "type": "photo",
+    "caption": "潘志强拍摄从业资格证年审预约确认短信",
+    "title": "IMG_20250119_083600",
+    "datetime": "2025-01-19 08:36:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "从业资格证",
+      "年审预约",
+      "手机短信",
+      "行政服务中心",
+      "证件",
+      "通知"
+    ],
+    "ocrText": "宁波运管局 从业资格证年审预约已确认 明日携带身份证、驾驶证、从业资格证原件 鄞州区行政服务中心3号窗口",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "402",
+    "type": "photo",
+    "caption": "潘志强整理需要携带的证件，包括身份证、驾驶证、从业资格证",
+    "title": "IMG_20250119_083800",
+    "datetime": "2025-01-19 08:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "身份证",
+      "驾驶证",
+      "从业资格证",
+      "证件整理",
+      "桌面",
+      "塑料证件套"
+    ],
+    "ocrText": "中华人民共和国居民身份证 中华人民共和国机动车驾驶证 道路运输从业人员从业资格证",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "404",
+    "type": "photo",
+    "caption": "潘志强在华润万家超市拍摄特价香菇",
+    "title": "IMG_20250119_111500",
+    "datetime": "2025-01-19 11:15:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "香菇",
+      "特价",
+      "超市",
+      "生鲜区",
+      "价格标签",
+      "购物"
+    ],
+    "ocrText": "华润万家 香菇 特价9.9元/500g 限时优惠",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "404",
+    "type": "photo",
+    "caption": "潘志强拍摄超市购物车里的商品",
+    "title": "IMG_20250119_111700",
+    "datetime": "2025-01-19 11:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "购物车",
+      "超市",
+      "商品",
+      "购物",
+      "手推车",
+      "日常采购"
+    ],
+    "ocrText": "华润万家 购物小票 商品清单",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "408",
+    "type": "photo",
+    "caption": "潘志强在工作室拍摄新到的绿茶皂基原料",
+    "title": "IMG_20250119_140900",
+    "datetime": "2025-01-19 14:09:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家工作室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "绿茶皂基",
+      "手工皂原料",
+      "DIY",
+      "称重",
+      "工作台",
+      "手工制作"
+    ],
+    "ocrText": "绿茶皂基 50公斤 1:6.8配比",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "408",
+    "type": "photo",
+    "caption": "潘志强拍摄手工皂制作工具和配方笔记",
+    "title": "IMG_20250119_141100",
+    "datetime": "2025-01-19 14:11:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家工作室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂工具",
+      "配方笔记",
+      "量杯",
+      "搅拌棒",
+      "电子秤",
+      "DIY爱好"
+    ],
+    "ocrText": "绿茶皂配方 皂基500g 绿茶粉75g 橄榄油 薰衣草精油",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "409",
+    "type": "photo",
+    "caption": "潘志强和女儿一起制作爆米花，焦糖和奶油两种口味",
+    "title": "IMG_20250119_154700",
+    "datetime": "2025-01-19 15:47:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "潘雨婷"
+    ],
+    "imageTag": [
+      "爆米花",
+      "焦糖味",
+      "奶油味",
+      "家庭制作",
+      "厨房",
+      "亲子活动"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "409",
+    "type": "photo",
+    "caption": "潘志强拍摄制作好的爆米花特写",
+    "title": "IMG_20250119_154900",
+    "datetime": "2025-01-19 15:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "爆米花",
+      "焦糖",
+      "奶油",
+      "零食",
+      "玻璃碗",
+      "家庭美食"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "411",
+    "type": "photo",
+    "caption": "潘志强在电影院拍摄电影票和爆米花",
+    "title": "IMG_20250119_172600",
+    "datetime": "2025-01-19 17:26:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "万达影城"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "电影票",
+      "爆米花",
+      "可乐",
+      "影院",
+      "熊出没",
+      "家庭观影"
+    ],
+    "ocrText": "万达影城 熊出没·狂野大陆 2025-01-19 17:30 6排8座 票价45元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "411",
+    "type": "photo",
+    "caption": "潘志强拍摄影院内的熊出没电影海报",
+    "title": "IMG_20250119_172800",
+    "datetime": "2025-01-19 17:28:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "万达影城"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "熊出没",
+      "电影海报",
+      "影院大厅",
+      "动画电影",
+      "宣传画",
+      "熊二"
+    ],
+    "ocrText": "熊出没·狂野大陆 2025年春节档 导演：丁亮 主演：熊大、熊二、光头强",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "418_related_1",
+    "type": "photo",
+    "caption": "潘志强在宁波市道路运输管理局门口与刘教练合影，背景是运管局大楼",
+    "title": "IMG_20250120_095200",
+    "datetime": "2025-01-20 09:52:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁穿路",
+      "streetNumber": "XX号",
+      "poi": "宁波市道路运输管理局"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "刘建军"
+    ],
+    "imageTag": [
+      "运管局",
+      "刘教练",
+      "合影",
+      "驾驶经验",
+      "工作日",
+      "大楼",
+      "门口",
+      "交流"
+    ],
+    "ocrText": "宁波市道路运输管理局 - 工作时间：周一至周五 9:00-17:00",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "418_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄运管局内部导视牌，显示各科室分布信息",
+    "title": "IMG_20250120_095500",
+    "datetime": "2025-01-20 09:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁穿路",
+      "streetNumber": "XX号",
+      "poi": "宁波市道路运输管理局"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "导视牌",
+      "运管局",
+      "科室分布",
+      "指示牌",
+      "大厅",
+      "工作日",
+      "办事指南"
+    ],
+    "ocrText": "一楼：业务受理大厅 二楼：驾培管理科 三楼：车辆管理科 四楼：安全监管科",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "419",
+    "type": "photo",
+    "caption": "潘志强在顺达物流公司整理装车单据，单据整齐摆放在办公桌上",
+    "title": "IMG_20250120_103200",
+    "datetime": "2025-01-20 10:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "装车单据",
+      "物流公司",
+      "办公桌",
+      "文件整理",
+      "工作记录",
+      "货车司机",
+      "工作日"
+    ],
+    "ocrText": "装车单号：SDWL20250120001 发货方：宁波XX公司 收货方：上海XX仓库 货物：日用百货",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "419",
+    "type": "photo",
+    "caption": "潘志强拍摄货车装载情况，货物整齐码放在车厢内",
+    "title": "IMG_20250120_103500",
+    "datetime": "2025-01-20 10:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "货车装载",
+      "货物码放",
+      "车厢内部",
+      "物流工作",
+      "安全检查",
+      "工作日",
+      "顺达物流"
+    ],
+    "ocrText": "浙B·12345 核载：5吨 实载：4.2吨 目的地：上海",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "424",
+    "type": "photo",
+    "caption": "潘志强拍摄明轩的英语辅导教材，书本整齐摆放在书桌上",
+    "title": "IMG_20250120_174800",
+    "datetime": "2025-01-20 17:48:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "英语教材",
+      "辅导书",
+      "书桌",
+      "家庭教育",
+      "孩子学习",
+      "晚间",
+      "书本特写"
+    ],
+    "ocrText": "初中英语辅导教材 - 人教版 - 七年级上册 - 定价：38.00元",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "424",
+    "type": "photo",
+    "caption": "潘志强拍摄为孩子准备的辅导材料，包括笔记本和文具",
+    "title": "IMG_20250120_175000",
+    "datetime": "2025-01-20 17:50:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "文具",
+      "笔记本",
+      "学习用品",
+      "家庭教育",
+      "家长准备",
+      "晚间",
+      "书桌"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "426",
+    "type": "photo",
+    "caption": "潘志强拍摄鄞州实验中学招生政策网页截图，显示在电脑屏幕上",
+    "title": "IMG_20250120_201800",
+    "datetime": "2025-01-20 20:18:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "招生政策",
+      "网页截图",
+      "鄞州实验中学",
+      "电脑屏幕",
+      "家庭教育",
+      "晚间",
+      "升学信息"
+    ],
+    "ocrText": "鄞州实验中学2025年招生简章 报名时间：2025年3月1日-3月31日 招生对象：本市户籍小学毕业生",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "426",
+    "type": "photo",
+    "caption": "潘志强手写整理的招生要点笔记，放在客厅茶几上",
+    "title": "IMG_20250120_202000",
+    "datetime": "2025-01-20 20:20:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手写笔记",
+      "招生要点",
+      "茶几",
+      "家庭教育",
+      "家长整理",
+      "晚间",
+      "纸张特写"
+    ],
+    "ocrText": "鄞州实验中学招生要点：1.户籍要求 2.成绩要求 3.面试时间 4.材料准备",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "430",
+    "type": "photo",
+    "caption": "潘志强在宁徐便民早餐店拍摄早餐，桌上有现磨豆浆和雪菜肉丝包",
+    "title": "IMG_20250121_070800",
+    "datetime": "2025-01-21 07:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "现磨豆浆",
+      "雪菜肉丝包",
+      "早餐",
+      "打包盒",
+      "木质餐桌",
+      "热气腾腾"
+    ],
+    "ocrText": "宁徐便民早餐店 - 现磨豆浆 雪菜肉丝包 - 2025年1月21日",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "433",
+    "type": "photo",
+    "caption": "潘志强在宁波汽车站拍摄车票信息，显示16:45班次和票价",
+    "title": "IMG_20250121_081000",
+    "datetime": "2025-01-21 08:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "南站东路",
+      "streetNumber": "XX号",
+      "poi": "宁波汽车站"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "汽车票",
+      "订单信息",
+      "票价800元",
+      "班次16:45",
+      "车站大屏",
+      "电子票务"
+    ],
+    "ocrText": "宁波公交 订单号NB202501211608 16:45班次 票价800元 请提前30分钟到站",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "434_related_1",
+    "type": "photo",
+    "caption": "潘志强在培训现场拍摄会议纪要，手写板上记录新交规要点",
+    "title": "IMG_20250121_103800",
+    "datetime": "2025-01-21 10:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流培训室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "会议纪要",
+      "手写板",
+      "新交规",
+      "危险品运输",
+      "培训笔记",
+      "白板笔迹"
+    ],
+    "ocrText": "新交规培训 危险品运输规范 2025年1月21日 赵明经理",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "441",
+    "type": "photo",
+    "caption": "潘志强在家中拍摄女儿制作的手工皂，皂体已脱模完成",
+    "title": "IMG_20250121_164500",
+    "datetime": "2025-01-21 16:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "潘雨婷"
+    ],
+    "imageTag": [
+      "手工皂",
+      "脱模",
+      "DIY",
+      "天然香皂",
+      "模具",
+      "家庭制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "446_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄包装完成的手工皂礼盒，准备送给邻居",
+    "title": "IMG_20250121_203000",
+    "datetime": "2025-01-21 20:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂礼盒",
+      "包装",
+      "丝带",
+      "礼品",
+      "天然香皂",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "452_related_1",
+    "type": "photo",
+    "caption": "潘志强在工商银行鄞州支行柜台前手持新钞提取凭证，身后可见银行柜台和等候区",
+    "title": "IMG_20250122_093000",
+    "datetime": "2025-01-22 09:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "工商银行鄞州支行"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "银行柜台",
+      "新钞提取",
+      "凭证单据",
+      "排队等候",
+      "金融服务",
+      "工作日"
+    ],
+    "ocrText": "工商银行 鄞州支行 预约号NB202501220835 办理时间09:45-10:30 3号窗口",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "452_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄银行大厅内的服务导视牌，显示各窗口业务类型和营业时间",
+    "title": "IMG_20250122_093200",
+    "datetime": "2025-01-22 09:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "工商银行鄞州支行"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "导视牌",
+      "银行服务",
+      "窗口指引",
+      "营业时间",
+      "信息公示",
+      "金属边框"
+    ],
+    "ocrText": "个人业务 1-4号窗口 对公业务 5-6号窗口 营业时间 周一至周五 9:00-17:00",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "453_related_1",
+    "type": "photo",
+    "caption": "潘志强在小区健身区检查儿童滑梯损坏情况，滑梯表面有明显裂痕",
+    "title": "IMG_20250122_092500",
+    "datetime": "2025-01-22 09:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山东路小区健身区"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "儿童滑梯",
+      "损坏检查",
+      "塑料裂痕",
+      "健身器材",
+      "小区公共设施",
+      "维修记录"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "453_related_1",
+    "type": "photo",
+    "caption": "潘志强用手机记录健身器材检查清单，手写板上列出滑梯具体问题和维修建议",
+    "title": "IMG_20250122_092700",
+    "datetime": "2025-01-22 09:27:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山东路小区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手写板",
+      "检查清单",
+      "维修记录",
+      "圆珠笔",
+      "纸质笔记",
+      "问题描述"
+    ],
+    "ocrText": "儿童滑梯维修清单：1.滑道连接处裂痕 2.扶手松动 3.底部固定螺栓锈蚀 建议本周内维修",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "457_related_1",
+    "type": "photo",
+    "caption": "潘志强在家中工作台展示自制手工皂，桌上摆放着橄榄油皂和椰子油皂",
+    "title": "IMG_20250122_132000",
+    "datetime": "2025-01-22 13:20:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "DIY制作",
+      "橄榄油皂",
+      "椰子油皂",
+      "天然材料",
+      "工作台"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "457_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄手工皂材料采购短信，手机屏幕显示商家特惠活动信息",
+    "title": "IMG_20250122_132200",
+    "datetime": "2025-01-22 13:22:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手机屏幕",
+      "促销短信",
+      "手工皂材料",
+      "橄榄油",
+      "椰子油",
+      "特惠活动"
+    ],
+    "ocrText": "手工皂材料 新年特惠 进口橄榄油、椰子油全场8折 满200包邮",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "462",
+    "type": "photo",
+    "caption": "潘志强在小区灯笼下测试照明效果，红色灯笼在夜色中发出温暖光芒",
+    "title": "IMG_20250122_192000",
+    "datetime": "2025-01-22 19:20:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山东路小区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "红色灯笼",
+      "夜景照明",
+      "小区装饰",
+      "春节氛围",
+      "灯光效果",
+      "夜间拍摄"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "夜景",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "462",
+    "type": "photo",
+    "caption": "潘志强拍摄发给妻子的短信截图，汇报灯笼检查和健身器材维修情况",
+    "title": "IMG_20250122_192300",
+    "datetime": "2025-01-22 19:23:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "短信截图",
+      "工作汇报",
+      "家庭沟通",
+      "手机界面",
+      "文字信息",
+      "日常记录"
+    ],
+    "ocrText": "老婆，灯笼照明效果检查完了，健身器材维修需求已反馈给物业",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "466_related_1",
+    "type": "photo",
+    "caption": "潘志强在晨跑后拍摄肩关节活动度训练视频截图，显示手机屏幕上的数据图表",
+    "title": "IMG_20250123_063200",
+    "datetime": "2025-01-23 06:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "晨跑训练",
+      "肩关节活动度",
+      "数据图表",
+      "手机屏幕",
+      "健身记录",
+      "运动分析"
+    ],
+    "ocrText": "肩关节活动度提升0.5% 训练完成时间06:30",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "467",
+    "type": "photo",
+    "caption": "潘志强在宁徐便民早餐店拍摄刚购买的现磨豆浆和雪菜笋丝包",
+    "title": "IMG_20250123_062800",
+    "datetime": "2025-01-23 06:28:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁徐路",
+      "streetNumber": "35号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "现磨豆浆",
+      "雪菜笋丝包",
+      "早餐",
+      "打包盒",
+      "热气腾腾",
+      "宁波早点"
+    ],
+    "ocrText": "宁徐便民早餐店 现磨豆浆5元 雪菜笋丝包3元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "468",
+    "type": "photo",
+    "caption": "潘志强在厨房拍摄刚做好的葱油饼，展示酥脆的金黄色表面",
+    "title": "IMG_20250123_071200",
+    "datetime": "2025-01-23 07:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "葱油饼",
+      "玉米粉",
+      "酥脆",
+      "金黄色",
+      "早餐",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "470",
+    "type": "photo",
+    "caption": "潘志强在车库拍摄车辆左前刹车片磨损情况",
+    "title": "IMG_20250123_083700",
+    "datetime": "2025-01-23 08:37:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家车库"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "刹车片",
+      "磨损",
+      "汽车保养",
+      "轮胎",
+      "防冻液",
+      "货车配件"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "476",
+    "type": "photo",
+    "caption": "潘志强在华润万家超市拍摄购物小票，显示消费金额和积分",
+    "title": "IMG_20250123_172700",
+    "datetime": "2025-01-23 17:27:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "188号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "购物小票",
+      "华润万家",
+      "消费金额",
+      "积分",
+      "超市购物",
+      "日用品"
+    ],
+    "ocrText": "华润万家 消费金额328.5元 积分累计 欢迎再次光临",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "481",
+    "type": "photo",
+    "caption": "潘志强在工作室拍摄手工皂固化状态，展示均匀的色泽和硬度",
+    "title": "IMG_20250123_212300",
+    "datetime": "2025-01-23 21:23:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家工作室"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "手工皂",
+      "DIY",
+      "固化",
+      "天然香皂",
+      "色泽均匀",
+      "保温箱"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "487_related_1",
+    "type": "photo",
+    "caption": "潘志强在老码头海鲜酒楼拍摄春节包间预订确认牌，确认号NB20250124001清晰可见",
+    "title": "IMG_20250124_084700",
+    "datetime": "2025-01-24 08:47:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "滨江路",
+      "streetNumber": "188号",
+      "poi": "老码头海鲜酒楼"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "确认牌",
+      "春节包间",
+      "预订成功",
+      "海鲜酒楼",
+      "红色装饰",
+      "金属边框"
+    ],
+    "ocrText": "老码头海鲜酒楼 春节包间预订确认号：NB20250124001 地址：宁波市鄞州区滨江路188号",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "487_related_1",
+    "type": "photo",
+    "caption": "潘志强在老码头海鲜酒楼门口拍摄停车位指示牌，显示充足停车位信息",
+    "title": "IMG_20250124_084730",
+    "datetime": "2025-01-24 08:47:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "滨江路",
+      "streetNumber": "188号",
+      "poi": "老码头海鲜酒楼停车场"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "停车位指示牌",
+      "充足车位",
+      "蓝色标志",
+      "酒楼入口",
+      "水泥地面",
+      "箭头指示"
+    ],
+    "ocrText": "老码头海鲜酒楼专用停车场 停车位充足 免费停车",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "495",
+    "type": "photo",
+    "caption": "潘志强在华润万家超市拍摄购物小票，显示消费金额286.5元和积分抵扣信息",
+    "title": "IMG_20250124_171700",
+    "datetime": "2025-01-24 17:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "368号",
+      "poi": "华润万家超市"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "购物小票",
+      "华润万家",
+      "会员积分",
+      "消费金额",
+      "热敏纸",
+      "超市购物"
+    ],
+    "ocrText": "华润万家 消费金额：286.5元 会员积分抵扣：15元 实际支付：271.5元 感谢光临",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "495",
+    "type": "photo",
+    "caption": "潘志强在华润万家超市拍摄年货商品陈列，货架上摆满春节礼品",
+    "title": "IMG_20250124_171730",
+    "datetime": "2025-01-24 17:17:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "368号",
+      "poi": "华润万家超市年货区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "年货商品",
+      "春节礼品",
+      "货架陈列",
+      "红色包装",
+      "糖果礼盒",
+      "超市环境"
+    ],
+    "ocrText": "年货节 最后疯抢 满299减80",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "494_related_1",
+    "type": "photo",
+    "caption": "潘志强在社区健身区拍摄已紧固的漫步机螺丝特写",
+    "title": "IMG_20250124_153400",
+    "datetime": "2025-01-24 15:34:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "漫步机",
+      "螺丝紧固",
+      "健身器材",
+      "金属部件",
+      "维修检查",
+      "社区环境"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "494_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄社区单杠安全检查，李建国正在测试单杠稳固性",
+    "title": "IMG_20250124_153430",
+    "datetime": "2025-01-24 15:34:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区健身区"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "李建国"
+    ],
+    "imageTag": [
+      "单杠检查",
+      "健身器材",
+      "安全测试",
+      "社区健身",
+      "户外运动",
+      "金属支架"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "504",
+    "type": "photo",
+    "caption": "潘志强在宁徐便民早餐店拍摄刚购买的现磨豆浆和荠菜肉包，早餐摆放在木质餐桌上",
+    "title": "IMG_20250125_062600",
+    "datetime": "2025-01-25 06:26:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "宁徐路",
+      "streetNumber": "XX号",
+      "poi": "宁徐便民早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "现磨豆浆",
+      "荠菜肉包",
+      "早餐",
+      "木质餐桌",
+      "热气腾腾",
+      "早餐店环境",
+      "外卖包装"
+    ],
+    "ocrText": "宁徐便民早餐店 - 营业时间 5:30-10:30 现磨豆浆 8元 荠菜肉包 5元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "505_related_1",
+    "type": "photo",
+    "caption": "潘志强在家中厨房拍摄刚出锅的葱油饼，金黄酥脆的饼皮放在白色瓷盘中",
+    "title": "IMG_20250125_064900",
+    "datetime": "2025-01-25 06:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "葱油饼",
+      "金黄酥脆",
+      "厨房",
+      "白色瓷盘",
+      "早餐制作",
+      "家庭烹饪",
+      "油温控制"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "514_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄烹饪中的红烧带鱼，带鱼段在锅中炖煮，旁边放着调味料",
+    "title": "IMG_20250125_131400",
+    "datetime": "2025-01-25 13:14:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "红烧带鱼",
+      "烹饪过程",
+      "炖锅",
+      "调味料",
+      "宁波菜",
+      "火候控制",
+      "传统美食"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "516",
+    "type": "photo",
+    "caption": "潘志强拍摄整理好的客厅，电视机和音响设备摆放整齐，网络设备指示灯亮着",
+    "title": "IMG_20250125_161000",
+    "datetime": "2025-01-25 16:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家客厅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "客厅整理",
+      "电视机",
+      "音响设备",
+      "网络设备",
+      "家居收纳",
+      "家庭环境",
+      "设备检查"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "518",
+    "type": "photo",
+    "caption": "潘志强拍摄年夜饭餐桌，丰盛的菜肴摆满圆桌，家人围坐用餐",
+    "title": "IMG_20250125_191000",
+    "datetime": "2025-01-25 19:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家餐厅"
+    },
+    "faceRecognition": [
+      "张美丽",
+      "潘晓梅",
+      "李建国",
+      "李秀英",
+      "潘明轩"
+    ],
+    "imageTag": [
+      "年夜饭",
+      "丰盛菜肴",
+      "家庭聚餐",
+      "圆桌",
+      "春节",
+      "家人团聚",
+      "节日氛围"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "520",
+    "type": "photo",
+    "caption": "潘志强拍摄孩子们表演节目的场景，孩子们在客厅中央表演，家人在周围观看",
+    "title": "IMG_20250125_214000",
+    "datetime": "2025-01-25 21:40:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家客厅"
+    },
+    "faceRecognition": [
+      "张美丽",
+      "潘晓梅",
+      "李建国",
+      "李秀英",
+      "潘明轩"
+    ],
+    "imageTag": [
+      "孩子表演",
+      "春晚",
+      "家庭欢乐",
+      "压岁钱",
+      "节日记录",
+      "家人互动",
+      "春节晚会"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "528",
+    "type": "photo",
+    "caption": "潘志强在老码头海鲜酒楼拍摄888包间环境，圆桌转盘与春节装饰布置精美",
+    "title": "IMG_20250126_123015",
+    "datetime": "2025-01-26 12:30:15",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "江东北路",
+      "streetNumber": "318号",
+      "poi": "老码头海鲜酒楼"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "海鲜酒楼",
+      "包间环境",
+      "圆桌",
+      "春节装饰",
+      "红色桌布",
+      "水晶吊灯"
+    ],
+    "ocrText": "老码头海鲜酒楼 888包间 用餐时间13:30 联系电话0574-87654321",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "528",
+    "type": "photo",
+    "caption": "潘志强拍摄老码头海鲜酒楼菜单特写，展示清蒸东星斑和红烧带鱼等特色菜",
+    "title": "IMG_20250126_123045",
+    "datetime": "2025-01-26 12:30:45",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "江东北路",
+      "streetNumber": "318号",
+      "poi": "老码头海鲜酒楼"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "海鲜菜单",
+      "清蒸东星斑",
+      "红烧带鱼",
+      "宁波特色菜",
+      "价格表",
+      "纸质菜单"
+    ],
+    "ocrText": "清蒸东星斑 298元/份 红烧带鱼 88元/份 宁波汤圆 28元/份",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "526",
+    "type": "photo",
+    "caption": "潘志强在家拍摄自制手工皂礼盒，多种颜色皂块整齐排列在木质礼盒中",
+    "title": "IMG_20250126_090800",
+    "datetime": "2025-01-26 09:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "DIY香皂",
+      "礼盒包装",
+      "天然皂块",
+      "多彩颜色",
+      "手工制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "526",
+    "type": "photo",
+    "caption": "潘志强拍摄手工皂制作工作台，摆放着模具、精油和已完成的手工皂",
+    "title": "IMG_20250126_090830",
+    "datetime": "2025-01-26 09:08:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂制作",
+      "工作台",
+      "硅胶模具",
+      "植物精油",
+      "搅拌工具",
+      "DIY工作区"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "527",
+    "type": "photo",
+    "caption": "潘志强在家拍摄全家福照片，妻子和三个孩子坐在沙发上笑容灿烂",
+    "title": "IMG_20250126_113500",
+    "datetime": "2025-01-26 11:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "妻子",
+      "长子",
+      "次子",
+      "幼女"
+    ],
+    "imageTag": [
+      "全家福",
+      "家庭合影",
+      "沙发背景",
+      "春节服装",
+      "笑容",
+      "家庭温馨"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "533",
+    "type": "photo",
+    "caption": "潘志强扫描支付宝1月账单页面，显示餐饮消费占比35%的统计图表",
+    "title": "IMG_20250126_203700",
+    "datetime": "2025-01-26 20:37:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "支付宝账单",
+      "月度消费",
+      "餐饮占比",
+      "手机截图",
+      "消费统计",
+      "电子账单"
+    ],
+    "ocrText": "1月账单 总计支出2568元 餐饮消费占比35%",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "537_related_2",
+    "type": "photo",
+    "caption": "潘志强拍摄电工王师傅的联系方式短信，手机屏幕显示电话号码和资质信息",
+    "title": "IMG_20250127_074500",
+    "datetime": "2025-01-27 07:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "手机屏幕",
+      "短信内容",
+      "电工联系方式",
+      "电话号码",
+      "资质信息",
+      "工作联系",
+      "手机截图"
+    ],
+    "ocrText": "电工王师傅电话13805741234，他们团队资质齐全，处理过我们小区多起类似问题",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "539_related_2",
+    "type": "photo",
+    "caption": "潘志强在世纪联华超市前拍摄导航地址，超市招牌清晰可见",
+    "title": "IMG_20250127_101700",
+    "datetime": "2025-01-27 10:17:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "中兴路",
+      "streetNumber": "138号",
+      "poi": "世纪联华超市"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "超市招牌",
+      "导航地址",
+      "中兴路",
+      "世纪联华",
+      "建筑外观",
+      "路边停车",
+      "商业街区"
+    ],
+    "ocrText": "中兴路138号世纪联华超市左侧",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "545_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄货车新换的杭德森轮胎特写，轮胎花纹清晰",
+    "title": "IMG_20250127_163700",
+    "datetime": "2025-01-27 16:37:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司停车场"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "汽车轮胎",
+      "杭德森品牌",
+      "轮胎花纹",
+      "货车配件",
+      "轮胎特写",
+      "橡胶质感",
+      "轮毂"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "545_related_1",
+    "type": "photo",
+    "caption": "潘志强在物流公司停车场拍摄货车整体外观",
+    "title": "IMG_20250127_163800",
+    "datetime": "2025-01-27 16:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "货车外观",
+      "物流车辆",
+      "停车场",
+      "公司标识",
+      "车辆整体",
+      "工作日",
+      "运输行业"
+    ],
+    "ocrText": "宁波顺达物流有限公司",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "549_related_1",
+    "type": "photo",
+    "caption": "潘志强在家中进行肩颈放松训练，记录改良动作",
+    "title": "IMG_20250127_195000",
+    "datetime": "2025-01-27 19:50:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅客厅"
+    },
+    "faceRecognition": "潘志强",
+    "imageTag": [
+      "肩颈放松",
+      "健身动作",
+      "居家锻炼",
+      "运动服装",
+      "客厅环境",
+      "健康管理",
+      "康复训练"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "549_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄健身笔记，记录改良训练动作要点",
+    "title": "IMG_20250127_195200",
+    "datetime": "2025-01-27 19:52:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅书房"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "手写笔记",
+      "训练要点",
+      "纸张特写",
+      "笔迹清晰",
+      "健身记录",
+      "动作说明",
+      "文档扫描"
+    ],
+    "ocrText": "肩颈放松训练改良动作：1.手臂伸展 2.颈部旋转 3.肩部拉伸 每个动作保持15秒",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "552_related_1",
+    "type": "photo",
+    "caption": "潘志强在晨跑后拍摄早餐，桌上有宁徐早餐店的现磨豆浆和小笼包",
+    "title": "IMG_20250128_064900",
+    "datetime": "2025-01-28 06:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "早餐",
+      "现磨豆浆",
+      "鲜肉小笼包",
+      "宁波日报",
+      "木质餐桌",
+      "晨间"
+    ],
+    "ocrText": "宁徐早餐店 现磨豆浆2杯 鲜肉小笼包1笼 宁波日报1份 合计28元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "553",
+    "type": "photo",
+    "caption": "潘志强在早餐店门口拍摄导视牌，显示店铺营业时间和菜单",
+    "title": "IMG_20250128_064800",
+    "datetime": "2025-01-28 06:48:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "宁徐早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "导视牌",
+      "早餐店",
+      "营业时间",
+      "菜单",
+      "门头",
+      "清晨"
+    ],
+    "ocrText": "宁徐早餐店 营业时间 05:30-10:30 鲜肉小笼包 15元/笼 现磨豆浆 8元/杯",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "556_related_1",
+    "type": "photo",
+    "caption": "潘志强在家中拍摄手工皂特写，展示茉莉花干和薰衣草精油添加效果",
+    "title": "IMG_20250128_113300",
+    "datetime": "2025-01-28 11:33:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "茉莉花干",
+      "薰衣草精油",
+      "DIY",
+      "凝固效果",
+      "天然香皂"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "559",
+    "type": "photo",
+    "caption": "潘志强在工作室拍摄pH测试仪显示数值，背景有手工皂制作工具",
+    "title": "IMG_20250128_164500",
+    "datetime": "2025-01-28 16:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家工作室"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "pH测试仪",
+      "手工皂",
+      "茉莉花干",
+      "薰衣草精油",
+      "DIY工具",
+      "数值显示"
+    ],
+    "ocrText": "pH值 8.2",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "562",
+    "type": "photo",
+    "caption": "潘志强在健身房拍摄肩颈训练姿势，镜中反射正确动作",
+    "title": "IMG_20250128_194500",
+    "datetime": "2025-01-28 19:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "社区健身房"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "肩颈训练",
+      "健身房",
+      "镜子反射",
+      "正确姿势",
+      "锻炼",
+      "肩胛稳定"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "565_related_1",
+    "type": "photo",
+    "caption": "潘志强在晨跑时拍摄父亲肩关节康复训练视频，背景为小区健身步道",
+    "title": "IMG_20250129_064900",
+    "datetime": "2025-01-29 06:49:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山小区健身步道"
+    },
+    "faceRecognition": [
+      "潘志强父亲"
+    ],
+    "imageTag": [
+      "晨跑",
+      "康复训练",
+      "肩关节活动",
+      "手机录制",
+      "健身步道",
+      "清晨阳光",
+      "运动服装",
+      "视频截图",
+      "动作记录",
+      "医疗康复"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "1920×1080"
+  },
+  {
+    "event_id": "568",
+    "type": "photo",
+    "caption": "潘志强在天一阁庙会拍摄舞龙舞狮表演，围观人群熙熙攘攘",
+    "title": "IMG_20250129_103500",
+    "datetime": "2025-01-29 10:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "天一街",
+      "streetNumber": "10号",
+      "poi": "天一阁博物馆"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "天一阁",
+      "庙会",
+      "舞龙舞狮",
+      "传统表演",
+      "红色灯笼",
+      "古建筑",
+      "围观人群",
+      "文化庆典",
+      "民俗活动",
+      "彩色服饰",
+      "鼓乐"
+    ],
+    "ocrText": "天一阁庙会 舞龙舞狮表演 10:30-11:30 免费观看",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "568",
+    "type": "photo",
+    "caption": "潘志强拍摄天一阁越剧表演舞台，演员身着传统戏服",
+    "title": "IMG_20250129_140500",
+    "datetime": "2025-01-29 14:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "天一街",
+      "streetNumber": "10号",
+      "poi": "天一阁博物馆"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "越剧表演",
+      "传统戏服",
+      "舞台",
+      "古戏台",
+      "戏曲演员",
+      "水袖",
+      "妆容精致",
+      "观众席",
+      "文化传承"
+    ],
+    "ocrText": "越剧《梁山伯与祝英台》14:00-15:30 天一阁古戏台",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "571",
+    "type": "photo",
+    "caption": "潘志强在天一阁文创店购买手工皂原料，拍摄柠檬草精油商品",
+    "title": "IMG_20250129_095200",
+    "datetime": "2025-01-29 09:52:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "天一街",
+      "streetNumber": "10号",
+      "poi": "天一阁文创商店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "柠檬草精油",
+      "手工皂原料",
+      "玻璃瓶装",
+      "商品陈列",
+      "文创店铺",
+      "天然香料",
+      "DIY材料",
+      "价格标签",
+      "购物消费"
+    ],
+    "ocrText": "柠檬草精油 10ml ￥68 天一阁文创 会员价￥58",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "576_related_1",
+    "type": "photo",
+    "caption": "潘志强弟弟拍摄的全家福合影，父母在天一阁古建筑前微笑",
+    "title": "IMG_20250129_193600",
+    "datetime": "2025-01-29 19:36:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "天一街",
+      "streetNumber": "10号",
+      "poi": "天一阁博物馆"
+    },
+    "faceRecognition": [
+      "潘志强父亲",
+      "潘志强母亲",
+      "潘志刚"
+    ],
+    "imageTag": [
+      "全家福",
+      "天一阁",
+      "古建筑",
+      "家庭合影",
+      "父母微笑",
+      "红色围墙",
+      "石雕",
+      "亲情时刻",
+      "节日氛围"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "581_related_1",
+    "type": "photo",
+    "caption": "电工团队在潘志强家中客厅检测电路问题，背景可见老旧电线和工具箱",
+    "title": "IMG_20250130_103015",
+    "datetime": "2025-01-30 10:30:15",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "电工检测",
+      "电路老化",
+      "工具箱",
+      "客厅",
+      "电线",
+      "维修",
+      "安全"
+    ],
+    "ocrText": "电路检测报告 - 2025年1月30日 10:00 - 预算：1200元",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "581_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄电工提供的施工预算单，包含材料清单和费用明细",
+    "title": "IMG_20250130_103530",
+    "datetime": "2025-01-30 10:35:30",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "预算单",
+      "施工费用",
+      "材料清单",
+      "手写笔记",
+      "文档扫描",
+      "电工服务"
+    ],
+    "ocrText": "线路更换预算单 施工日期：2月1-3日 材料费：800元 人工费：400元 总计：1200元",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "585",
+    "type": "photo",
+    "caption": "潘志强在超市采购的手工皂原料，包括橄榄油、椰子油和柠檬草精油",
+    "title": "IMG_20250130_134500",
+    "datetime": "2025-01-30 13:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家超市"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂原料",
+      "橄榄油",
+      "椰子油",
+      "柠檬草精油",
+      "购物车",
+      "超市货架",
+      "DIY"
+    ],
+    "ocrText": "华润万家 橄榄油 500ml ￥45.00 椰子油 500ml ￥38.00",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "585",
+    "type": "photo",
+    "caption": "潘志强将采购的日用品整齐摆放在汽车后备箱，包括纸巾和洗衣液",
+    "title": "IMG_20250130_140200",
+    "datetime": "2025-01-30 14:02:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家停车场"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "物品收纳",
+      "汽车后备箱",
+      "日用品",
+      "纸巾",
+      "洗衣液",
+      "整齐摆放",
+      "采购"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "591",
+    "type": "photo",
+    "caption": "潘志强在家中工作台展示新买的柠檬草精油，旁边摆放手工皂模具",
+    "title": "IMG_20250130_200500",
+    "datetime": "2025-01-30 20:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "柠檬草精油",
+      "手工皂模具",
+      "工作台",
+      "DIY工具",
+      "天然香皂",
+      "业余爱好"
+    ],
+    "ocrText": "柠檬草精油 10ml 100%纯天然 生产日期：2024-12-01",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "591",
+    "type": "photo",
+    "caption": "潘志强拍摄已完成的手工皂成品，皂体呈现淡黄色带有柠檬草香气",
+    "title": "IMG_20250130_201000",
+    "datetime": "2025-01-30 20:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂成品",
+      "淡黄色皂体",
+      "柠檬草香气",
+      "天然成分",
+      "DIY成果",
+      "家居制作"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "593_related_1",
+    "type": "photo",
+    "caption": "潘志强与张建军在宁波月湖公园荷花池观景台合影，身后是晨光中的荷花池和亭台",
+    "title": "IMG_20250131_053500",
+    "datetime": "2025-01-31 05:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "镇明路",
+      "streetNumber": "XX号",
+      "poi": "月湖公园荷花池观景台"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "张建军"
+    ],
+    "imageTag": [
+      "荷花池",
+      "观景台",
+      "晨光",
+      "合影",
+      "亭台",
+      "湖面",
+      "朋友聚会"
+    ],
+    "ocrText": "月湖公园荷花池 - 开放时间6:00-22:00",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "593_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄月湖公园的晨景，湖面倒映着古建筑和垂柳",
+    "title": "IMG_20250131_053800",
+    "datetime": "2025-01-31 05:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "海曙区",
+      "streetName": "镇明路",
+      "streetNumber": "XX号",
+      "poi": "月湖公园"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "月湖",
+      "晨景",
+      "古建筑",
+      "垂柳",
+      "湖面倒影",
+      "宁静",
+      "城市公园"
+    ],
+    "ocrText": "宁波月湖 - 国家AAAA级旅游景区",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "594",
+    "type": "photo",
+    "caption": "潘志强在宁徐早餐店拍摄购买的鲜肉小笼包和现磨豆浆早餐",
+    "title": "IMG_20250131_071000",
+    "datetime": "2025-01-31 07:10:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "156号",
+      "poi": "宁徐早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "鲜肉小笼包",
+      "现磨豆浆",
+      "早餐",
+      "蒸笼",
+      "热气腾腾",
+      "宁波特色",
+      "美食记录"
+    ],
+    "ocrText": "宁徐早餐店 - 鲜肉小笼包12元/份 现磨豆浆4元/杯",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "594",
+    "type": "photo",
+    "caption": "潘志强扫描宁波日报头版新闻，准备在早餐时阅读",
+    "title": "IMG_20250131_071200",
+    "datetime": "2025-01-31 07:12:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "156号",
+      "poi": "宁徐早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "宁波日报",
+      "报纸扫描",
+      "头版新闻",
+      "文字清晰",
+      "文档记录",
+      "早餐时光"
+    ],
+    "ocrText": "宁波日报 2025年1月31日 星期五 今日要闻：宁波港集装箱吞吐量创新高",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "597_related_1",
+    "type": "photo",
+    "caption": "潘志强在顺达物流公司办公室拍摄已领取的运输单据",
+    "title": "IMG_20250131_100500",
+    "datetime": "2025-01-31 10:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "运输单据",
+      "物流文件",
+      "表格填写",
+      "办公室",
+      "工作记录",
+      "货车司机"
+    ],
+    "ocrText": "宁波顺达物流运输单 - 发货单位：北仑港 收货单位：杭州萧山 货物：日用百货",
+    "shoot_mode": "文档扫描",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "597_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄更新后的货车路线规划图，标注了新的运输路线",
+    "title": "IMG_20250131_100800",
+    "datetime": "2025-01-31 10:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "路线规划",
+      "地图标注",
+      "运输路线",
+      "工作备忘",
+      "货车导航",
+      "物流调度"
+    ],
+    "ocrText": "宁波-杭州运输路线 途经：杭甬高速 预计时间：2.5小时",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "601_related_1",
+    "type": "photo",
+    "caption": "潘志强在社区健身区检查漫步机，特写需要紧固的底座螺丝",
+    "title": "IMG_20250131_144500",
+    "datetime": "2025-01-31 14:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山社区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "漫步机",
+      "底座螺丝",
+      "健身器材",
+      "维修检查",
+      "工具特写",
+      "社区设施"
+    ],
+    "ocrText": "全民健身器材 - 生产日期：2020年8月 维护电话：0574-XXXXXXX",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "601_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄社区健身区全景，包括漫步机和其他健身设施",
+    "title": "IMG_20250131_144800",
+    "datetime": "2025-01-31 14:48:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "中山社区健身区"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "社区健身区",
+      "健身器材",
+      "公共设施",
+      "户外运动",
+      "社区环境",
+      "健身漫步机"
+    ],
+    "ocrText": "中山社区健身区 开放时间：6:00-21:00 注意事项：儿童需家长陪同",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "606",
+    "type": "photo",
+    "caption": "潘志强在家制作手工皂，特写柠檬草精油和原料配比",
+    "title": "IMG_20250131_204000",
+    "datetime": "2025-01-31 20:40:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂",
+      "柠檬草精油",
+      "DIY制作",
+      "原料配比",
+      "天然香皂",
+      "家居爱好"
+    ],
+    "ocrText": "手工皂配方：橄榄油200g 椰子油100g 柠檬草精油5ml NaOH 45g",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "606",
+    "type": "photo",
+    "caption": "潘志强整理手工皂制作工具，包括模具、量杯和搅拌棒",
+    "title": "IMG_20250131_204300",
+    "datetime": "2025-01-31 20:43:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "手工皂模具",
+      "制作工具",
+      "物品收纳",
+      "量杯",
+      "搅拌棒",
+      "DIY材料"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "609_related_1",
+    "type": "photo",
+    "caption": "张建军在宁波鄞州公园门口晨跑，背景是公园入口和晨光",
+    "title": "IMG_20250201_053000",
+    "datetime": "2025-02-01 05:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "鄞州公园"
+    },
+    "faceRecognition": [
+      "张建军"
+    ],
+    "imageTag": [
+      "晨跑",
+      "运动服",
+      "公园入口",
+      "清晨",
+      "健身",
+      "鄞州公园",
+      "晨光"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "609_related_1",
+    "type": "photo",
+    "caption": "潘志强在公园跑步道拍摄晨跑后的拉伸动作，背景是绿树和步道",
+    "title": "IMG_20250201_053500",
+    "datetime": "2025-02-01 05:35:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "XX号",
+      "poi": "鄞州公园"
+    },
+    "faceRecognition": [
+      "潘志强"
+    ],
+    "imageTag": [
+      "拉伸",
+      "跑步道",
+      "绿树",
+      "清晨",
+      "运动后",
+      "健康生活",
+      "公园环境"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "610",
+    "type": "photo",
+    "caption": "潘志强在宁徐早餐店拍摄现磨豆浆和荠菜肉包，背景是早餐店柜台",
+    "title": "IMG_20250201_062800",
+    "datetime": "2025-02-01 06:28:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "150号",
+      "poi": "宁徐早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "现磨豆浆",
+      "荠菜肉包",
+      "早餐",
+      "热气",
+      "柜台",
+      "宁波小吃",
+      "日常美食"
+    ],
+    "ocrText": "宁徐早餐店 - 营业时间 5:00-10:00 - 豆浆 5元/杯 肉包 3元/个",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "610",
+    "type": "photo",
+    "caption": "潘志强拍摄早餐店菜单特写，包含价格和品种信息",
+    "title": "IMG_20250201_063000",
+    "datetime": "2025-02-01 06:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "150号",
+      "poi": "宁徐早餐店"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "菜单",
+      "价格表",
+      "早餐品种",
+      "特写",
+      "店铺信息",
+      "手写板",
+      "日常记录"
+    ],
+    "ocrText": "宁徐早餐店 今日特供：现磨豆浆5元 荠菜肉包3元 葱油拌面12元 宁波汤圆8元",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "612_related_1",
+    "type": "photo",
+    "caption": "电工在潘志强家中进行电路改造施工，背景是工具和电线",
+    "title": "IMG_20250201_082000",
+    "datetime": "2025-02-01 08:20:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "张美丽",
+      "电工若干"
+    ],
+    "imageTag": [
+      "电路改造",
+      "电工工具",
+      "施工",
+      "家庭维修",
+      "电线",
+      "安全帽",
+      "日常记录"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "612_related_1",
+    "type": "photo",
+    "caption": "潘志强拍摄改造后的电路开关面板特写，展示安装效果",
+    "title": "IMG_20250201_082500",
+    "datetime": "2025-02-01 08:25:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "开关面板",
+      "电路安装",
+      "特写",
+      "家庭改善",
+      "电工工作",
+      "细节",
+      "日常收纳"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "616",
+    "type": "photo",
+    "caption": "潘志强在华润万家拍摄购买的柠檬草精油和茉莉花干商品",
+    "title": "IMG_20250201_160500",
+    "datetime": "2025-02-01 16:05:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "柠檬草精油",
+      "茉莉花干",
+      "购物",
+      "超市",
+      "商品特写",
+      "手工皂材料",
+      "日常物品"
+    ],
+    "ocrText": "华润万家 - 柠檬草精油 15ml 48元 - 茉莉花干 50g 12元 - 总计 128元",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "616",
+    "type": "photo",
+    "caption": "潘志强拍摄购物小票特写，显示商品明细和价格",
+    "title": "IMG_20250201_160800",
+    "datetime": "2025-02-01 16:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "华润万家"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "购物小票",
+      "价格明细",
+      "特写",
+      "消费记录",
+      "超市收银",
+      "日常文档",
+      "扫描"
+    ],
+    "ocrText": "华润万家 小票 商品：柠檬草精油 48元 茉莉花干 12元 其他 68元 总计 128元",
+    "shoot_mode": "微距",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "619_related_1",
+    "type": "photo",
+    "caption": "潘志强在小区健身区拍摄健身器材维护情况，背景是单杠和跑步机",
+    "title": "IMG_20250201_184500",
+    "datetime": "2025-02-01 18:45:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "李建国"
+    ],
+    "imageTag": [
+      "健身器材",
+      "维护",
+      "单杠",
+      "跑步机",
+      "小区环境",
+      "体育锻炼",
+      "邻里交流"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "619_related_1",
+    "type": "photo",
+    "caption": "潘志强和李建国在健身器材旁合影，展示维护后的设备",
+    "title": "IMG_20250201_185000",
+    "datetime": "2025-02-01 18:50:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "小区健身区"
+    },
+    "faceRecognition": [
+      "潘志强",
+      "李建国"
+    ],
+    "imageTag": [
+      "合影",
+      "健身器材",
+      "维护完成",
+      "小区",
+      "傍晚",
+      "邻里",
+      "健康生活"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "人像",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "627",
+    "type": "photo",
+    "caption": "潘志强在书房拍摄学习资料文档，桌上摆放着法规条文和笔记本电脑",
+    "title": "IMG_20250202_103700",
+    "datetime": "2025-02-02 10:37:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "学习资料",
+      "法规条文",
+      "文档扫描",
+      "A4纸张",
+      "书房桌面",
+      "笔记本电脑",
+      "微信传输",
+      "法律学习"
+    ],
+    "ocrText": "《道路交通安全法》第47条...机动车行经人行横道时，应当减速行驶；遇行人正在通过人行横道，应当停车让行。",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "627",
+    "type": "photo",
+    "caption": "潘志强拍摄手机微信聊天界面，显示与周建军的资料传输记录",
+    "title": "IMG_20250202_103800",
+    "datetime": "2025-02-02 10:38:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "微信界面",
+      "聊天记录",
+      "资料传输",
+      "手机屏幕",
+      "学习交流",
+      "法规条文",
+      "文件接收"
+    ],
+    "ocrText": "周建军：学习资料已发\n潘志强：收到，谢谢！法规条文的理解难点我整理好再跟你讨论",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "634",
+    "type": "photo",
+    "caption": "潘志强拍摄电路改造施工图纸，图纸铺在货车驾驶室座位上",
+    "title": "IMG_20250202_155500",
+    "datetime": "2025-02-02 15:55:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流停车场"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "电路图纸",
+      "施工方案",
+      "货车驾驶室",
+      "技术交流",
+      "改造经验",
+      "线路标注",
+      "专业工具"
+    ],
+    "ocrText": "电路改造施工图 - 宁波顺达物流 - 2025年2月施工 - 负责人：潘志强",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "634",
+    "type": "photo",
+    "caption": "潘志强拍摄工具箱内的电工工具，包括万用表、钳子和电线",
+    "title": "IMG_20250202_155600",
+    "datetime": "2025-02-02 15:56:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流维修车间"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "电工工具",
+      "万用表",
+      "钳子",
+      "电线",
+      "工具箱",
+      "电路改造",
+      "专业设备"
+    ],
+    "ocrText": "无",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "626",
+    "type": "photo",
+    "caption": "潘志强拍摄电路改造施工现场，电线管道已安装完成",
+    "title": "IMG_20250202_103200",
+    "datetime": "2025-02-02 10:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流仓库"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "电路改造",
+      "施工现场",
+      "电线管道",
+      "配电箱",
+      "施工进度",
+      "工作记录",
+      "物流仓库"
+    ],
+    "ocrText": "施工区域 - 注意安全 - 宁波顺达物流电路改造项目",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "626",
+    "type": "photo",
+    "caption": "潘志强拍摄明日施工计划手写板，记录安装调试安排",
+    "title": "IMG_20250202_103300",
+    "datetime": "2025-02-02 10:33:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流办公室"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "施工计划",
+      "手写板",
+      "安装调试",
+      "工作安排",
+      "明日任务",
+      "白板笔记",
+      "时间安排"
+    ],
+    "ocrText": "2月3日施工计划：8:30电路安装调试 - 负责人：潘师傅 - 联系电话：139XXXX7890",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "631",
+    "type": "photo",
+    "caption": "潘志强拍摄生鲜配送任务清单，清单上标注具体要求",
+    "title": "IMG_20250202_132900",
+    "datetime": "2025-02-02 13:29:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流调度室"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "生鲜配送",
+      "任务清单",
+      "冷链运输",
+      "工作要求",
+      "配送路线",
+      "温度要求",
+      "工作文档"
+    ],
+    "ocrText": "生鲜配送任务 - 温度要求：0-4°C - 配送时间：14:00前 - 客户：宁波生鲜超市",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "631",
+    "type": "photo",
+    "caption": "潘志强拍摄货车冷藏车厢内部，检查温度显示和货物摆放",
+    "title": "IMG_20250202_133000",
+    "datetime": "2025-02-02 13:30:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流装货区"
+    },
+    "faceRecognition": "无",
+    "imageTag": [
+      "冷藏车厢",
+      "温度显示",
+      "货物摆放",
+      "冷链物流",
+      "货车内部",
+      "生鲜运输",
+      "设备检查"
+    ],
+    "ocrText": "冷藏温度：3.5°C - 宁波顺达物流 - 车牌：浙B·XXXXX",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "643_related_1",
+    "type": "photo",
+    "caption": "潘志强在宁波顺达物流公司仓库拍摄生鲜配送清单，清单上详细列出了冷链优先装载的货物",
+    "title": "IMG_20250203_043200",
+    "datetime": "2025-02-03 04:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "北仑区",
+      "streetName": "港城路",
+      "streetNumber": "88号",
+      "poi": "宁波顺达物流有限公司仓库"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "生鲜配送清单",
+      "冷链货物",
+      "手写记录",
+      "工作文档",
+      "仓库环境",
+      "核对清单"
+    ],
+    "ocrText": "生鲜配送清单 2025-02-03 冷链优先装载 货物总价：¥2,568.00",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "648",
+    "type": "photo",
+    "caption": "潘志强在客户家中拍摄电路验收完成后的配电箱，电线整齐排列标识清晰",
+    "title": "IMG_20250203_133200",
+    "datetime": "2025-02-03 13:32:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强住宅"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "配电箱",
+      "电路验收",
+      "电线布线",
+      "专业施工",
+      "家居维修",
+      "电工工具"
+    ],
+    "ocrText": "电路验收合格 2025-02-03 施工方：王师傅电工团队",
+    "shoot_mode": "正常拍照",
+    "image_size": "4032×3024"
+  },
+  {
+    "event_id": "653",
+    "type": "photo",
+    "caption": "潘志强在社区活动中心拍摄春饼制作步骤展示板，详细记录和面、擀皮、烙饼的要领",
+    "title": "IMG_20250203_163700",
+    "datetime": "2025-02-03 16:37:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "四明中路",
+      "streetNumber": "XX号",
+      "poi": "鄞州社区活动中心"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "春饼制作",
+      "步骤展示",
+      "面点教程",
+      "烹饪技巧",
+      "社区活动",
+      "美食记录"
+    ],
+    "ocrText": "春饼制作要领 和面比例：面粉500g 温水250ml 烙饼温度：180℃",
+    "shoot_mode": "正常拍照",
+    "image_size": "3024×4032"
+  },
+  {
+    "event_id": "656",
+    "type": "photo",
+    "caption": "潘志强在家中厨房拍摄即将用完的茉莉花干原料罐，罐底仅剩少量花干",
+    "title": "IMG_20250203_190800",
+    "datetime": "2025-02-03 19:08:00",
+    "location": {
+      "province": "浙江省",
+      "city": "宁波市",
+      "district": "鄞州区",
+      "streetName": "中山东路",
+      "streetNumber": "256号",
+      "poi": "潘志强家厨房"
+    },
+    "faceRecognition": [
+      "无"
+    ],
+    "imageTag": [
+      "茉莉花干",
+      "原料罐",
+      "手工皂材料",
+      "DIY用品",
+      "厨房收纳",
+      "补货提醒"
+    ],
+    "ocrText": "茉莉花干 净重：约50g 产地：广西横县",
+    "shoot_mode": "微距",
+    "image_size": "4032×3024"
+  }
+]

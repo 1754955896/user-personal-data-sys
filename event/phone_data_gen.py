@@ -253,6 +253,7 @@ phone_event_Callrecord_template = '''
 联系人电话号码（contact_phone_number）：优先用联系人列表号码；机构类可填 1069 等号段或 “官方专用号”。
 时间戳（timestamp）：与原始事件时间一致或相近，格式 “YYYY-MM-DD HH:MM:SS”。
 收发类型（message_type）：“发送”（用户主动）或 “接收”（他人 / 机构推送）。
+(注意message_content中不要包含双引号)
 三、生成原则
 仅保留与 “通话” 或 “短信” 直接相关的事件，无通信交互的事件需排除。
 原始信息不明确时，基于事件场景（如 “快递咨询”“预约确认”）合理推测，符合常识；可结合个人画像推理更多场景，补充更多生活细节类通信（如家人问候、朋友事项沟通，广告，提醒等）。
@@ -326,7 +327,7 @@ description：包含核心要素，对日历日程进行描述：
 - 会议例：“与李总洽谈合作，2023-10-10 14:00-15:30公司2楼会客室，需带报价单”
 start_time：与约定时间一致，格式“YYYY-MM-DD HH:MM:SS”
 end_time：出行类填发车/起飞时间（与start_time一致），会议/预约类填合理时长后时间
-
+(注意description中不要包含双引号)
 （二）笔记（Note）：含6个字段
 event_id：复用原始事件标识；纯兴趣主题总结填“theme_主题关键词”（如“theme_手冲咖啡技巧”）
 type：固定“note”
@@ -338,7 +339,7 @@ content：聚焦单一主题的结构化表述（分点/分层），类型包括
 （禁止对全天所有事件进行总结，需围绕单个事件或单个主题展开）
 datetime：事件发生时/后1小时内（重要/感兴趣事件）或主题学习后（兴趣总结），格式“YYYY-MM-DD HH:MM:SS”
 关联事件ID（related_event_ids）：单个事件填原ID；纯兴趣主题填“无”；同类事件汇总填多个ID（如“evt001,evt002”）
-
+(注意content中不要包含双引号)
 三、生成原则
 1. 重要度与兴趣区分：日历仅筛选“预定”“会议”“医疗”“出行”等重要事件；笔记可覆盖重要事件及“兴趣爱好”“特色体验”等非重要但感兴趣事件
 2. 笔记主题唯一性：笔记内容仅关注单个事件或单个兴趣主题，避免跨事件、跨主题的全天总结
@@ -399,7 +400,7 @@ type：固定“push”
 推送来源APP（source）：具体APP/系统模块名称（需与动作场景匹配）
 推送状态（push_status）：已读/未读/已删除（未读占比≤40%）
 跳转路径（jump_path）：如“支付宝→账单详情”“美团→我的预定”“淘宝→订单物流”
-
+(注意推送内容和推送标题中不要包含双引号)
 三、生成原则
 1. 去重约束：与短信数据重复的交流内容不生成；社交平台通信信息不纳入推送范围
 2. 细节匹配：推送内容需包含事件中的具体信息（如支付金额、预定时间、订单编号等），禁止泛化表述
@@ -560,18 +561,8 @@ def contact_gen(persona):
     return res
 
 extool = Data_extract()
-a = []
-b = []
-c = []
-d = []
-# a = read_json_file('event_gallery.json')
-# b = read_json_file('event_push.json')
-# c = read_json_file('event_call.json')
-# d = read_json_file('event_note.json')
 
-
-def phone_gen(date,contact,file_path):
-    global a,b,c,d
+def phone_gen(date,contact,file_path,a,b,c,d):
     #获取今日daily_event
     res1 = extool.filter_by_date(date)
     res = []
@@ -587,8 +578,6 @@ def phone_gen(date,contact,file_path):
     res = remove_json_wrapper(res)
     data = json.loads(res)
     c += data
-    with open(file_path+"phone_data/event_call.json", "w", encoding="utf-8") as f:
-        json.dump(c, f, ensure_ascii=False, indent=2)
     #gallery
     prompt = phone_event_Gallery_template.format(event=res, persona=extool.persona)
     resx = llm_call(prompt, extool.context)
@@ -596,8 +585,6 @@ def phone_gen(date,contact,file_path):
     resx = remove_json_wrapper(resx)
     data = json.loads(resx)
     a+=data
-    with open(file_path+"phone_data/event_gallery.json", "w", encoding="utf-8") as f:
-        json.dump(a, f, ensure_ascii=False, indent=2)
     #push
     prompt = phone_event_Push_template.format(event=res,contacts=contact,persona=extool.persona_withoutrl,msm=resx)
     res = llm_call(prompt, extool.context)
@@ -605,8 +592,6 @@ def phone_gen(date,contact,file_path):
     res = remove_json_wrapper(res)
     data = json.loads(res)
     b += data
-    with open(file_path+"phone_data/event_push.json", "w", encoding="utf-8") as f:
-        json.dump(b, f, ensure_ascii=False, indent=2)
     #calendar+note
     prompt = phone_event_Calendar_template.format(event=res,back = get_daily_events_with_subevent(extool.events,date),persona=extool.persona_withoutrl)
     res = llm_call(prompt,extool.context)
@@ -616,6 +601,13 @@ def phone_gen(date,contact,file_path):
     d += data
     with open(file_path+"phone_data/event_note.json", "w", encoding="utf-8") as f:
         json.dump(d, f, ensure_ascii=False, indent=2)
+    with open(file_path+"phone_data/event_call.json", "w", encoding="utf-8") as f:
+        json.dump(c, f, ensure_ascii=False, indent=2)
+    with open(file_path+"phone_data/event_gallery.json", "w", encoding="utf-8") as f:
+        json.dump(a, f, ensure_ascii=False, indent=2)
+    with open(file_path+"phone_data/event_push.json", "w", encoding="utf-8") as f:
+        json.dump(b, f, ensure_ascii=False, indent=2)
+
     return
 
 

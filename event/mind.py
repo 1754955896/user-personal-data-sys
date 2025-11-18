@@ -629,7 +629,7 @@ class Mind:
             three_days_ago_str = three_days_ago.strftime(date_format)
             f_str = f.strftime(date_format)
             # 4. 返回按时间升序排列的数组（前两天在前，本日在后）
-            return [target_date_str,one_days_ago_str,two_days_ago_str,three_days_ago_str,f_str]
+            return [target_date_str,one_days_ago_str,two_days_ago_str,f_str]
 
         def get_next_day(date_str: str, date_format: str = "%Y-%m-%d") -> str:
             """
@@ -711,7 +711,7 @@ class Mind:
         for item in arr:
             name = item['name']
             res += name
-        res = self.mem_moudle.search_by_topic_embedding(res,3)
+        res = self.mem_moudle.search_by_topic_embedding(res,2)
         for i in res:
             if i['date'] in date_set:
                 continue
@@ -867,7 +867,7 @@ class Mind:
         plan = self.get_plan(date)
         prompt = template_plan_21.format(cognition=self.cognition, memory=self.long_memory + self.short_memory,
                                         thought=self.thought, plan=plan['今日事件'], date=self.get_date_string(date),
-                                        persona=self.persona_withoutrl)
+                                        persona=self.persona)
         res = self.llm_call_s(prompt, 1)
         print("主观思考（计划如何执行、想安排什么活动）-----------------------------------------------------------------------")
         print(res)
@@ -881,11 +881,11 @@ class Mind:
         #获取poi数据
         poidata = self.map(tt)
         prompt = template_plan_5.format(poi=poidata)
-        res1 = self.llm_call_s(prompt, 1)
+        res1 = self.llm_call_s(prompt, 0)
         print("轨迹调整-----------------------------------------------------------------------")
         print(res1)
         # 随机细节事件引入+反应
-        prompt = template_plan_31.format(memory=self.short_memory,life=res1)
+        prompt = template_plan_31.format(memory=self.short_memory,life=res1,cognition=self.cognition)
         res2 = self.llm_call_s(prompt, 0)
         print("丰富（细节事件+多场景+描述润色）-----------------------------------------------------------------------")
         print(res2)
@@ -902,7 +902,7 @@ class Mind:
         # 记忆更新(检索系统)+想法生成
         prompt = template_reflection.format(cognition=self.cognition, memory=self.long_memory + self.short_memory,
                                             content=res2, plan=plan, date=self.get_date_string(date))
-        res = self.llm_call_s(prompt, 1)
+        res = self.llm_call_s(prompt, 0)
         print("反思（真实情绪，自我洞察，事件记忆，总结反思，未来期望）-----------------------------------------------------------------------")
         print(res)
         res = self.remove_json_wrapper(res)
@@ -911,10 +911,10 @@ class Mind:
         self.thought = data["thought"]
         m = json.loads(res)
         mm = [m]
-        for i in range(1, 8):
+        for i in range(1, 3):
             mm += self.mem_moudle.search_by_date(self.get_next_n_day(date, -i))
-        # 总结：基于最新一天的记忆和思考想法，更新认知，长期记忆
-        prompt = template_update_cog.format(cognition=self.cognition, memory=self.long_memory, plan=plan, history=mm)
+        # 总结：基于最新一天的记忆和思考想法，更新长期记忆
+        prompt = template_update_cog.format(cognition=self.cognition, memory=self.long_memory, plan=plan, history=mm,now=res)
         res = self.llm_call_s(prompt)
         res = self.remove_json_wrapper(res)
         data = json.loads(res)
