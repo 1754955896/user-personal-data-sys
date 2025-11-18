@@ -8,7 +8,6 @@ end_date = '2025-03-30'
 control = 2 #控制是否执行原子事件调整，若调整过可以跳过。
 
 
-
 mind = Mind(file_path)
 json_data_p = persona
 
