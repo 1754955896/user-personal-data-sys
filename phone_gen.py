@@ -4,7 +4,7 @@ import os.path
 from event.phone_data_gen import *
 
 file_path = 'data/'
-start_time = '2025-02-09'
+start_time = '2025-01-01'
 end_time = '2025-03-30'
 persona = read_json_file(file_path+'persona.json')
 
