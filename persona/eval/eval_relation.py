@@ -257,7 +257,7 @@ def analyze_social_circles(json_data, show_unknown=True):
 
 if __name__ == "__main__":
     # 简化的示例JSON数据
-    file_path = "../data_persona/personal_profile_rl.json"
+    file_path = "../../data_persona/personal_profile_rl.json"
     # 解析JSON数据为列表
     with open(file_path, 'r', encoding='utf-8') as f:
         # 解析JSON数据为列表

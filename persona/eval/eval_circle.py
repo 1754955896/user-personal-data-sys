@@ -108,7 +108,7 @@ def generate_wordcloud(data, title, max_words=50):
 
 
 if __name__ == "__main__":
-    file_path = "../data_persona/personal_profile_rl.json"
+    file_path = "../../data_persona/personal_profile_rl.json"
     # 解析JSON数据为列表
     with open(file_path, 'r', encoding='utf-8') as f:
         # 解析JSON数据为列表

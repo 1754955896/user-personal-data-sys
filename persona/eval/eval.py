@@ -435,7 +435,7 @@ class UserProfileAnalyzer:
         print(f"- 爱好多样性: {hobby_diversity} 种不同爱好")
 
         # 保存报告到文件
-        with open('../log/diversity_report.txt', 'w', encoding='utf-8') as f:
+        with open('../../log/diversity_report.txt', 'w', encoding='utf-8') as f:
             f.write("=" * 50 + "\n")
             f.write("用户画像多样性评估报告\n")
             f.write("=" * 50 + "\n")
@@ -479,7 +479,7 @@ class UserProfileAnalyzer:
 
 if __name__ == "__main__":
     # 替换为你的JSON文件路径
-    json_file = "../data_persona/personal_profile_rl.json"
+    json_file = "../../data_persona/personal_profile_rl.json"
 
     # 检查文件是否存在
     if not os.path.exists(json_file):
