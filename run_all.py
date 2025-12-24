@@ -4,6 +4,7 @@ import time
 import os
 import json
 import pypinyin
+import shutil
 
 
 def run_script(script_path, description, args=None):
@@ -116,6 +117,19 @@ def run_for_persona(persona_data, persona_folder, instance_id):
             all_success = False
             print(f"\n❌ 流程中断: {script['description']} 运行失败")
             break
+    
+    # 删除memory_file目录下的所有文件
+    memory_file_dir = "memory_file"
+    if os.path.exists(memory_file_dir):
+        # 遍历目录中的所有文件并删除
+        for filename in os.listdir(memory_file_dir):
+            file_path = os.path.join(memory_file_dir, filename)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                    print(f"已删除临时文件: {file_path}")
+            except Exception as e:
+                print(f"删除文件 {file_path} 时出错: {str(e)}")
     
     return all_success
 
