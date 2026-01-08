@@ -103,12 +103,16 @@ def run_for_persona(persona_data, persona_folder, instance_id):
         })
     else:
         print(f"检测到output/outputs.json文件，跳过运行模拟生成模块")
-    
-    scripts.append({
-        "path": "phone_gen.py",
-        "description": "手机操作生成模块",
-        "args": ["--file-path", persona_folder+'/']
-    })
+    phone_output_path = os.path.join(persona_folder, 'phone_data')
+    if not os.path.exists(phone_output_path):
+        scripts.append({
+            "path": "phone_gen.py",
+            "description": "手机操作生成模块",
+            "args": ["--file-path", persona_folder+'/']
+        })
+    else:
+        print(f"检测到phone_data目录，跳过运行手机操作生成模块")
+
     
     # 按顺序运行每个脚本
     all_success = True
