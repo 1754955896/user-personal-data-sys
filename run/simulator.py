@@ -15,7 +15,7 @@ parser.add_argument('--file-path', type=str, default='output/xujing/', help='数
 parser.add_argument('--start-date', type=str, default='2025-01-01', help='开始日期')
 parser.add_argument('--end-date', type=str, default='2025-12-31', help='结束日期')
 parser.add_argument('--max-workers', type=int, default=30, help='最大并行线程数')
-parser.add_argument('--interval-days', type=int, default=16, help='每个线程处理的天数')
+parser.add_argument('--interval-days', type=int, default=13, help='每个线程处理的天数')
 parser.add_argument('--generate-data', type=int, default=1, help='是否生成数据')
 parser.add_argument('--format-events', type=int, default=1, help='是否格式化事件')
 parser.add_argument('--instance-id', type=int, default=0, help='人物实例ID')
